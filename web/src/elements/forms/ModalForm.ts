@@ -1,8 +1,10 @@
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
 import "@goauthentik/elements/LoadingOverlay";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+
+import { EVENT_REFRESH } from "@goauthentik/common/constants";
+
 import { ModalButton } from "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton";
-import { ModalHideEvent } from "@goauthentik/elements/controllers/ModalOrchestrationController.js";
+import { ModalHideEvent } from "@goauthentik/elements/controllers/ModalOrchestrationController";
 import { Form } from "@goauthentik/elements/forms/Form";
 
 import { msg } from "@lit/localize";

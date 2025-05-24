@@ -1,15 +1,19 @@
+import "@goauthentik/elements/Expand";
+import "@goauthentik/elements/Spinner";
+
 import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums.js";
+import { PFSize } from "@goauthentik/common/enums";
 import {
     EventContext,
     EventContextProperty,
     EventModel,
     EventWithContext,
 } from "@goauthentik/common/events";
+
 import { AKElement } from "@goauthentik/elements/Base";
-import "@goauthentik/elements/Expand";
-import "@goauthentik/elements/Spinner";
 import { SlottedTemplateResult } from "@goauthentik/elements/types";
+
+import { EventActions, FlowsApi } from "@goauthentik/api";
 
 import { msg, str } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html } from "lit";
@@ -25,8 +29,6 @@ import PFTable from "@patternfly/patternfly/components/Table/table.css";
 import PFFlex from "@patternfly/patternfly/layouts/Flex/flex.css";
 import PFSplit from "@patternfly/patternfly/layouts/Split/split.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
-
-import { EventActions, FlowsApi } from "@goauthentik/api";
 
 // TODO: Settle these types. It's too hard to make sense of what we're expecting here.
 type EventSlotValueType =

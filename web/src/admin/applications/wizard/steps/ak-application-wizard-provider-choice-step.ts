@@ -1,22 +1,25 @@
-import { WithLicenseSummary } from "#elements/mixins/license";
-import { ApplicationWizardStep } from "@goauthentik/admin/applications/wizard/ApplicationWizardStep.js";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title.js";
+import "@goauthentik/elements/EmptyState";
+import "@goauthentik/elements/forms/FormGroup";
+import "@goauthentik/elements/forms/HorizontalFormElement";
+import "@goauthentik/elements/wizard/TypeCreateWizardPage";
+import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+
+import { bound } from "@goauthentik/elements/decorators/bound";
+import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
+import { TypeCreateWizardPageLayouts } from "@goauthentik/elements/wizard/TypeCreateWizardPage";
+
 import type { NavigableButton, WizardButton } from "@goauthentik/components/ak-wizard/types";
-import "@goauthentik/elements/EmptyState.js";
-import { bound } from "@goauthentik/elements/decorators/bound.js";
-import "@goauthentik/elements/forms/FormGroup.js";
-import "@goauthentik/elements/forms/HorizontalFormElement.js";
-import { TypeCreateWizardPageLayouts } from "@goauthentik/elements/wizard/TypeCreateWizardPage.js";
-import "@goauthentik/elements/wizard/TypeCreateWizardPage.js";
+
+import { ApplicationWizardStep } from "@goauthentik/admin/applications/wizard/ApplicationWizardStep";
+
+import { TypeCreate } from "@goauthentik/api";
 
 import { consume } from "@lit/context";
 import { msg } from "@lit/localize";
 import { html } from "lit";
 import { customElement, state } from "lit/decorators.js";
 
-import { TypeCreate } from "@goauthentik/api";
-
-import { applicationWizardProvidersContext } from "../ContextIdentity";
+import { applicationWizardProvidersContext } from "../ContextIdentity.js";
 import { type LocalTypeCreate } from "./ProviderChoices.js";
 
 @customElement("ak-application-wizard-provider-choice-step")

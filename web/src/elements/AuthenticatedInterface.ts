@@ -1,6 +1,6 @@
-import { Interface } from "#elements/Interface";
-import { LicenseContextController } from "#elements/controllers/LicenseContextController";
-import { VersionContextController } from "#elements/controllers/VersionContextController";
+import { Interface } from "@goauthentik/elements/Interface";
+import { LicenseContextController } from "@goauthentik/elements/controllers/LicenseContextController";
+import { VersionContextController } from "@goauthentik/elements/controllers/VersionContextController";
 
 export class AuthenticatedInterface extends Interface {
     constructor() {

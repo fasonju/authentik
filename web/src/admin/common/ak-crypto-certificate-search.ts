@@ -1,18 +1,20 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { AKElement } from "@goauthentik/elements/Base";
-import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect";
-import "@goauthentik/elements/forms/SearchSelect";
-import { CustomListenerElement } from "@goauthentik/elements/utils/eventEmitter";
+import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
 
-import { html } from "lit";
-import { customElement, property, query } from "lit/decorators.js";
-import { ifDefined } from "lit/directives/if-defined.js";
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+
+import { AKElement } from "@goauthentik/elements/Base";
+import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import { CustomListenerElement } from "@goauthentik/elements/utils/eventEmitter";
 
 import {
     CertificateKeyPair,
     CryptoApi,
     CryptoCertificatekeypairsListRequest,
 } from "@goauthentik/api";
+
+import { html } from "lit";
+import { customElement, property, query } from "lit/decorators.js";
+import { ifDefined } from "lit/directives/if-defined.js";
 
 const renderElement = (item: CertificateKeyPair): string => item.name;
 

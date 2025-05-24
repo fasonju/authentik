@@ -1,8 +1,11 @@
-import { groupBy } from "@goauthentik/common/utils";
 import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect/ak-search-select";
 import "@goauthentik/elements/forms/SearchSelect/ak-search-select-ez";
+
+import { groupBy } from "@goauthentik/common/utils";
+
+import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect/ak-search-select";
 import { type ISearchSelectApi } from "@goauthentik/elements/forms/SearchSelect/ak-search-select-ez";
+
 import { Meta } from "@storybook/web-components";
 
 import { TemplateResult, html } from "lit";

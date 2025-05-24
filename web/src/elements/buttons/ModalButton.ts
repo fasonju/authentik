@@ -1,9 +1,10 @@
-import { PFSize } from "@goauthentik/common/enums.js";
+import { PFSize } from "@goauthentik/common/enums";
+
 import { AKElement } from "@goauthentik/elements/Base";
 import {
     ModalHideEvent,
     ModalShowEvent,
-} from "@goauthentik/elements/controllers/ModalOrchestrationController.js";
+} from "@goauthentik/elements/controllers/ModalOrchestrationController";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html, nothing } from "lit";

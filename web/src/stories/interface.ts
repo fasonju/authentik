@@ -1,4 +1,4 @@
-import { Interface } from "#elements/Interface";
+import { Interface } from "@goauthentik/elements/Interface";
 
 import { customElement } from "lit/decorators.js";
 

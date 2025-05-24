@@ -1,26 +1,32 @@
-import "#admin/AdminInterface/AboutModal";
-import type { AboutModal } from "#admin/AdminInterface/AboutModal";
-import { ROUTES } from "#admin/Routes";
-import { EVENT_API_DRAWER_TOGGLE, EVENT_NOTIFICATION_DRAWER_TOGGLE } from "#common/constants";
-import { configureSentry } from "#common/sentry/index";
-import { me } from "#common/users";
-import { WebsocketClient } from "#common/ws";
-import { SidebarToggleEventDetail } from "#components/ak-page-header";
-import { AuthenticatedInterface } from "#elements/AuthenticatedInterface";
-import "#elements/ak-locale-context/ak-locale-context";
-import "#elements/banner/EnterpriseStatusBanner";
-import "#elements/banner/EnterpriseStatusBanner";
-import "#elements/banner/VersionBanner";
-import "#elements/banner/VersionBanner";
-import "#elements/messages/MessageContainer";
-import "#elements/messages/MessageContainer";
-import { WithCapabilitiesConfig } from "#elements/mixins/capabilities";
-import "#elements/notifications/APIDrawer";
-import "#elements/notifications/NotificationDrawer";
-import { getURLParam, updateURLParams } from "#elements/router/RouteMatch";
-import "#elements/router/RouterOutlet";
-import "#elements/sidebar/Sidebar";
-import "#elements/sidebar/SidebarItem";
+import "@goauthentik/admin/AdminInterface/AboutModal";
+import "@goauthentik/elements/ak-locale-context/ak-locale-context";
+import "@goauthentik/elements/banner/EnterpriseStatusBanner";
+import "@goauthentik/elements/banner/VersionBanner";
+import "@goauthentik/elements/messages/MessageContainer";
+import "@goauthentik/elements/notifications/APIDrawer";
+import "@goauthentik/elements/notifications/NotificationDrawer";
+import "@goauthentik/elements/router/RouterOutlet";
+import "@goauthentik/elements/sidebar/Sidebar";
+import "@goauthentik/elements/sidebar/SidebarItem";
+
+import {
+    EVENT_API_DRAWER_TOGGLE,
+    EVENT_NOTIFICATION_DRAWER_TOGGLE,
+} from "@goauthentik/common/constants";
+import { configureSentry } from "@goauthentik/common/sentry/index";
+import { me } from "@goauthentik/common/users";
+import { WebsocketClient } from "@goauthentik/common/ws";
+
+import { AuthenticatedInterface } from "@goauthentik/elements/AuthenticatedInterface";
+import { WithCapabilitiesConfig } from "@goauthentik/elements/mixins/capabilities";
+import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
+
+import { SidebarToggleEventDetail } from "@goauthentik/components/ak-page-header";
+
+import type { AboutModal } from "@goauthentik/admin/AdminInterface/AboutModal";
+import { ROUTES } from "@goauthentik/admin/Routes";
+
+import { CapabilitiesEnum, SessionUser, UiThemeEnum } from "@goauthentik/api";
 
 import { CSSResult, TemplateResult, css, html, nothing } from "lit";
 import { customElement, eventOptions, property, query } from "lit/decorators.js";
@@ -31,8 +37,6 @@ import PFDrawer from "@patternfly/patternfly/components/Drawer/drawer.css";
 import PFNav from "@patternfly/patternfly/components/Nav/nav.css";
 import PFPage from "@patternfly/patternfly/components/Page/page.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
-
-import { CapabilitiesEnum, SessionUser, UiThemeEnum } from "@goauthentik/api";
 
 import {
     AdminSidebarEnterpriseEntries,

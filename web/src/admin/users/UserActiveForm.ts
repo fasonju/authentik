@@ -1,6 +1,8 @@
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+
 import { parseAPIResponseError, pluckErrorDetail } from "@goauthentik/common/errors/network";
 import { MessageLevel } from "@goauthentik/common/messages";
-import "@goauthentik/elements/buttons/SpinnerButton";
+
 import { DeleteForm } from "@goauthentik/elements/forms/DeleteForm";
 import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
 

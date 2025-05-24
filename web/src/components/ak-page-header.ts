@@ -1,6 +1,7 @@
-import "#components/ak-nav-buttons";
-import { AKPageNavbar } from "#components/ak-page-navbar";
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/components/ak-nav-buttons";
+
+import { AKPageNavbar } from "@goauthentik/components/ak-page-navbar";
 
 import { CSSResult, LitElement, css } from "lit";
 import { customElement, property } from "lit/decorators.js";

@@ -1,32 +1,36 @@
-import { DEFAULT_CONFIG } from "#common/api/config";
+import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/elements/ak-locale-context/ak-locale-context";
+import "@goauthentik/elements/banner/EnterpriseStatusBanner";
+import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
+import "@goauthentik/elements/messages/MessageContainer";
+import "@goauthentik/components/ak-nav-buttons";
+import "@goauthentik/elements/notifications/APIDrawer";
+import "@goauthentik/elements/notifications/NotificationDrawer";
+import "@goauthentik/elements/router/RouterOutlet";
+import "@goauthentik/elements/sidebar/Sidebar";
+import "@goauthentik/elements/sidebar/SidebarItem";
+
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
 import {
     EVENT_API_DRAWER_TOGGLE,
     EVENT_NOTIFICATION_DRAWER_TOGGLE,
     EVENT_WS_MESSAGE,
-} from "#common/constants";
-import { globalAK } from "#common/global";
-import { configureSentry } from "#common/sentry/index";
-import { UIConfig, getConfigForUser } from "#common/ui/config";
-import { DefaultBrand } from "#common/ui/config";
-import { me } from "#common/users";
-import { WebsocketClient } from "#common/ws";
-import "#components/ak-nav-buttons";
-import { AuthenticatedInterface } from "#elements/AuthenticatedInterface";
-import { AKElement } from "#elements/Base";
-import "#elements/ak-locale-context/ak-locale-context";
-import "#elements/banner/EnterpriseStatusBanner";
-import "#elements/buttons/ActionButton/ak-action-button";
-import "#elements/messages/MessageContainer";
-import { WithBrandConfig } from "#elements/mixins/branding";
-import "#elements/notifications/APIDrawer";
-import "#elements/notifications/NotificationDrawer";
-import { getURLParam, updateURLParams } from "#elements/router/RouteMatch";
-import "#elements/router/RouterOutlet";
-import "#elements/sidebar/Sidebar";
-import "#elements/sidebar/SidebarItem";
-import { themeImage } from "#elements/utils/images";
-import { ROUTES } from "#user/Routes";
-import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+} from "@goauthentik/common/constants";
+import { globalAK } from "@goauthentik/common/global";
+import { configureSentry } from "@goauthentik/common/sentry/index";
+import { DefaultBrand, UIConfig, getConfigForUser } from "@goauthentik/common/ui/config";
+import { me } from "@goauthentik/common/users";
+import { WebsocketClient } from "@goauthentik/common/ws";
+
+import { AuthenticatedInterface } from "@goauthentik/elements/AuthenticatedInterface";
+import { AKElement } from "@goauthentik/elements/Base";
+import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
+import { themeImage } from "@goauthentik/elements/utils/images";
+
+import { ROUTES } from "@goauthentik/user/Routes";
+
+import { EventsApi, SessionUser } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { css, html, nothing } from "lit";
@@ -41,8 +45,6 @@ import PFNotificationBadge from "@patternfly/patternfly/components/NotificationB
 import PFPage from "@patternfly/patternfly/components/Page/page.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 import PFDisplay from "@patternfly/patternfly/utilities/Display/display.css";
-
-import { EventsApi, SessionUser } from "@goauthentik/api";
 
 if (process.env.NODE_ENV === "development") {
     await import("@goauthentik/esbuild-plugin-live-reload/client");

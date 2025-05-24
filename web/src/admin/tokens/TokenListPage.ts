@@ -1,21 +1,18 @@
+import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/elements/buttons/Dropdown";
+import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "@goauthentik/elements/forms/DeleteBulkForm";
+import "@goauthentik/elements/forms/ModalForm";
+import "@goauthentik/components/ak-status-label";
 import "@goauthentik/admin/rbac/ObjectPermissionModal";
 import "@goauthentik/admin/tokens/TokenForm";
+
 import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
 import { intentToLabel } from "@goauthentik/common/labels";
 import { formatElapsedTime } from "@goauthentik/common/temporal";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/buttons/TokenCopyButton";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
-import { TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
-import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
 
-import { msg } from "@lit/localize";
-import { TemplateResult, html } from "lit";
-import { customElement, property } from "lit/decorators.js";
+import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
+import { TablePage } from "@goauthentik/elements/table/TablePage";
 
 import {
     CoreApi,
@@ -23,6 +20,10 @@ import {
     RbacPermissionsAssignedByUsersListModelEnum,
     Token,
 } from "@goauthentik/api";
+
+import { msg } from "@lit/localize";
+import { TemplateResult, html } from "lit";
+import { customElement, property } from "lit/decorators.js";
 
 @customElement("ak-token-list")
 export class TokenListPage extends TablePage<Token> {

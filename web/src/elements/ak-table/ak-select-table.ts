@@ -5,8 +5,8 @@ import { PropertyValues, TemplateResult, html } from "lit";
 import { customElement, property, queryAll } from "lit/decorators.js";
 import { map } from "lit/directives/map.js";
 
-import { type ISimpleTable, SimpleTable } from "./ak-simple-table";
-import type { TableRow } from "./types";
+import { type ISimpleTable, SimpleTable } from "./ak-simple-table.js";
+import type { TableRow } from "./types.js";
 
 export interface ISelectTable extends ISimpleTable {
     value: string;

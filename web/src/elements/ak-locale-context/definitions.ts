@@ -1,7 +1,6 @@
 import * as _enLocale from "#locales/en";
 
-import type { LocaleModule } from "@lit/localize";
-import { msg } from "@lit/localize";
+import { LocaleModule, msg } from "@lit/localize";
 
 import { AkLocale, LocaleRow } from "./types.js";
 
@@ -35,7 +34,6 @@ export { enLocale };
 // - Text Label
 // - Locale loader.
 
-// prettier-ignore
 const debug: LocaleRow = [
     "pseudo-LOCALE",
     /^pseudo/i,

@@ -1,23 +1,17 @@
-import "#admin/rbac/ObjectPermissionModal";
-import "#admin/stages/invitation/InvitationForm";
-import "#admin/stages/invitation/InvitationListLink";
-import { DEFAULT_CONFIG } from "#common/api/config";
-import { PFColor } from "#elements/Label";
-import "#elements/buttons/ModalButton";
-import "#elements/buttons/SpinnerButton/ak-spinner-button";
-import "#elements/forms/DeleteBulkForm";
-import "#elements/forms/ModalForm";
-import { PaginatedResponse } from "#elements/table/Table";
-import { TableColumn } from "#elements/table/Table";
-import { TablePage } from "#elements/table/TablePage";
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/elements/buttons/ModalButton";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/elements/forms/DeleteBulkForm";
+import "@goauthentik/elements/forms/ModalForm";
+import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "@goauthentik/admin/stages/invitation/InvitationForm";
+import "@goauthentik/admin/stages/invitation/InvitationListLink";
 
-import { msg } from "@lit/localize";
-import { CSSResult, TemplateResult, html } from "lit";
-import { customElement, property, state } from "lit/decorators.js";
-import { ifDefined } from "lit/directives/if-defined.js";
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
 
-import PFBanner from "@patternfly/patternfly/components/Banner/banner.css";
+import { PFColor } from "@goauthentik/elements/Label";
+import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
+import { TablePage } from "@goauthentik/elements/table/TablePage";
 
 import {
     FlowDesignationEnum,
@@ -25,6 +19,13 @@ import {
     RbacPermissionsAssignedByUsersListModelEnum,
     StagesApi,
 } from "@goauthentik/api";
+
+import { msg } from "@lit/localize";
+import { CSSResult, TemplateResult, html } from "lit";
+import { customElement, property, state } from "lit/decorators.js";
+import { ifDefined } from "lit/directives/if-defined.js";
+
+import PFBanner from "@patternfly/patternfly/components/Banner/banner.css";
 
 @customElement("ak-stage-invitation-list")
 export class InvitationListPage extends TablePage<Invitation> {

@@ -1,18 +1,21 @@
-import { camelToSnake } from "@goauthentik/common/utils.js";
+import "@goauthentik/elements/forms/FormGroup";
+import "@goauthentik/elements/forms/HorizontalFormElement";
 import "@goauthentik/components/ak-number-input";
 import "@goauthentik/components/ak-radio-input";
 import "@goauthentik/components/ak-switch-input";
 import "@goauthentik/components/ak-text-input";
-import { AKElement } from "@goauthentik/elements/Base.js";
+
+import { camelToSnake } from "@goauthentik/common/utils";
+
+import { AKElement } from "@goauthentik/elements/Base";
 import { KeyUnknown, serializeForm } from "@goauthentik/elements/forms/Form";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
 import { HorizontalFormElement } from "@goauthentik/elements/forms/HorizontalFormElement";
+
+import { styles as AwadStyles } from "@goauthentik/admin/applications/wizard/ApplicationWizardFormStepStyles";
 
 import { property, query } from "lit/decorators.js";
 
-import { styles as AwadStyles } from "../../ApplicationWizardFormStepStyles.css.js";
-import { type ApplicationWizardState, type OneOfProvider } from "../../types";
+import { type ApplicationWizardState, type OneOfProvider } from "../../types.js";
 
 export class ApplicationWizardProviderForm<T extends OneOfProvider> extends AKElement {
     static get styles() {

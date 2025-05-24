@@ -1,5 +1,9 @@
-import { globalAK } from "#common/global";
-import { StyleRoot, createCSSResult, createStyleSheetUnsafe } from "#common/stylesheets";
+import { globalAK } from "@goauthentik/common/global";
+import {
+    StyleRoot,
+    createCSSResult,
+    createStyleSheetUnsafe,
+} from "@goauthentik/common/stylesheets";
 import {
     $AKBase,
     CSSColorSchemeValue,
@@ -8,13 +12,13 @@ import {
     createUIThemeEffect,
     formatColorScheme,
     resolveUITheme,
-} from "#common/theme";
+} from "@goauthentik/common/theme";
+
+import { UiThemeEnum } from "@goauthentik/api";
 
 import { localized } from "@lit/localize";
 import { CSSResult, CSSResultGroup, CSSResultOrNative, LitElement } from "lit";
 import { property } from "lit/decorators.js";
-
-import { UiThemeEnum } from "@goauthentik/api";
 
 @localized()
 export class AKElement extends LitElement {

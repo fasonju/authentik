@@ -1,5 +1,5 @@
-import { EVENT_REQUEST_POST } from "@goauthentik/common/constants.js";
-import { getCookie } from "@goauthentik/common/utils.js";
+import { EVENT_REQUEST_POST } from "@goauthentik/common/constants";
+import { getCookie } from "@goauthentik/common/utils";
 
 import {
     CurrentBrand,

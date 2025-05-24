@@ -1,3 +1,8 @@
+import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/elements/forms/DeleteBulkForm";
+import "@goauthentik/elements/forms/ModalForm";
+import "@goauthentik/elements/forms/ProxyForm";
 import "@goauthentik/admin/applications/ApplicationWizardHint";
 import "@goauthentik/admin/providers/ProviderWizard";
 import "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderForm";
@@ -10,21 +15,17 @@ import "@goauthentik/admin/providers/radius/RadiusProviderForm";
 import "@goauthentik/admin/providers/saml/SAMLProviderForm";
 import "@goauthentik/admin/providers/scim/SCIMProviderForm";
 import "@goauthentik/admin/providers/ssf/SSFProviderFormPage";
+
 import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import "@goauthentik/elements/buttons/SpinnerButton";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
-import { TableColumn } from "@goauthentik/elements/table/Table";
+
+import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
 import { TablePage } from "@goauthentik/elements/table/TablePage";
-import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+
+import { Provider, ProvidersApi } from "@goauthentik/api";
 
 import { msg, str } from "@lit/localize";
 import { TemplateResult, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
-
-import { Provider, ProvidersApi } from "@goauthentik/api";
 
 @customElement("ak-provider-list")
 export class ProviderListPage extends TablePage<Provider> {

@@ -1,14 +1,22 @@
-import { EVENT_WS_MESSAGE } from "#common/constants";
-import { globalAK } from "#common/global";
-import { UIConfig, UserDisplay, getConfigForUser } from "#common/ui/config";
-import { me } from "#common/users";
-import "#components/ak-nav-buttons";
-import type { PageHeaderInit, SidebarToggleEventDetail } from "#components/ak-page-header";
-import { AKElement } from "#elements/Base";
-import { WithBrandConfig } from "#elements/mixins/branding";
-import { isAdminRoute } from "#elements/router/utils";
-import { themeImage } from "#elements/utils/images";
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/components/ak-nav-buttons";
+
+import { EVENT_WS_MESSAGE } from "@goauthentik/common/constants";
+import { globalAK } from "@goauthentik/common/global";
+import { UIConfig, UserDisplay, getConfigForUser } from "@goauthentik/common/ui/config";
+import { me } from "@goauthentik/common/users";
+
+import { AKElement } from "@goauthentik/elements/Base";
+import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { isAdminRoute } from "@goauthentik/elements/router/utils";
+import { themeImage } from "@goauthentik/elements/utils/images";
+
+import type {
+    PageHeaderInit,
+    SidebarToggleEventDetail,
+} from "@goauthentik/components/ak-page-header";
+
+import { SessionUser } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html, nothing } from "lit";
@@ -22,8 +30,6 @@ import PFDropdown from "@patternfly/patternfly/components/Dropdown/dropdown.css"
 import PFNotificationBadge from "@patternfly/patternfly/components/NotificationBadge/notification-badge.css";
 import PFPage from "@patternfly/patternfly/components/Page/page.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
-
-import { SessionUser } from "@goauthentik/api";
 
 /**
  * A global navbar component at the top of the page.

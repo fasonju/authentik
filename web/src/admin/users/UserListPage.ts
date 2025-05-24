@@ -1,14 +1,18 @@
-import { WithBrandConfig } from "#elements/mixins/branding";
-import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
-import type { AdminInterface } from "@goauthentik/admin/AdminInterface/index.entrypoint.js";
+import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
 import "@goauthentik/admin/users/ServiceAccountForm";
 import "@goauthentik/admin/users/UserActiveForm";
 import "@goauthentik/admin/users/UserForm";
 import "@goauthentik/admin/users/UserImpersonateForm";
 import "@goauthentik/admin/users/UserPasswordForm";
 import "@goauthentik/admin/users/UserResetEmailForm";
+import "@goauthentik/components/ak-status-label";
+import "@goauthentik/elements/TreeView";
+import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
+import "@goauthentik/elements/forms/DeleteBulkForm";
+import "@goauthentik/elements/forms/ModalForm";
+
 import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums.js";
+import { PFSize } from "@goauthentik/common/enums";
 import { parseAPIResponseError } from "@goauthentik/common/errors/network";
 import { userTypeToLabel } from "@goauthentik/common/labels";
 import { MessageLevel } from "@goauthentik/common/messages";
@@ -16,18 +20,21 @@ import { formatElapsedTime } from "@goauthentik/common/temporal";
 import { rootInterface } from "@goauthentik/common/theme";
 import { DefaultUIConfig, uiConfig } from "@goauthentik/common/ui/config";
 import { me } from "@goauthentik/common/users";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/elements/TreeView";
-import "@goauthentik/elements/buttons/ActionButton";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
+
 import { showAPIErrorMessage, showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import {
+    CapabilitiesEnum,
+    WithCapabilitiesConfig,
+} from "@goauthentik/elements/mixins/capabilities";
 import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
-import { TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
 import { TablePage } from "@goauthentik/elements/table/TablePage";
 import { writeToClipboard } from "@goauthentik/elements/utils/writeToClipboard";
-import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+
+import type { AdminInterface } from "@goauthentik/admin/AdminInterface/index.entrypoint";
+
+import { CoreApi, SessionUser, User, UserPath } from "@goauthentik/api";
 
 import { msg, str } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html } from "lit";
@@ -36,8 +43,6 @@ import { customElement, property, state } from "lit/decorators.js";
 import PFAlert from "@patternfly/patternfly/components/Alert/alert.css";
 import PFCard from "@patternfly/patternfly/components/Card/card.css";
 import PFDescriptionList from "@patternfly/patternfly/components/DescriptionList/description-list.css";
-
-import { CoreApi, SessionUser, User, UserPath } from "@goauthentik/api";
 
 export const requestRecoveryLink = (user: User) =>
     new CoreApi(DEFAULT_CONFIG)

@@ -1,9 +1,10 @@
-import { globalAK } from "#common/global";
-import { applyDocumentTheme } from "#common/theme";
-import { AKElement } from "#elements/Base";
-import { BrandingContextController } from "#elements/controllers/BrandContextController";
-import { ConfigContextController } from "#elements/controllers/ConfigContextController";
-import { ModalOrchestrationController } from "#elements/controllers/ModalOrchestrationController";
+import { globalAK } from "@goauthentik/common/global";
+import { applyDocumentTheme } from "@goauthentik/common/theme";
+
+import { AKElement } from "@goauthentik/elements/Base";
+import { BrandingContextController } from "@goauthentik/elements/controllers/BrandContextController";
+import { ConfigContextController } from "@goauthentik/elements/controllers/ConfigContextController";
+import { ModalOrchestrationController } from "@goauthentik/elements/controllers/ModalOrchestrationController";
 
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 

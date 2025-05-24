@@ -9,7 +9,7 @@ import PFForm from "@patternfly/patternfly/components/Form/form.css";
 import PFRadio from "@patternfly/patternfly/components/Radio/radio.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 
-import { randomId } from "../utils/randomId";
+import { randomId } from "../utils/randomId.js";
 
 export interface RadioOption<T> {
     label: string;

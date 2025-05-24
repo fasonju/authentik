@@ -1,23 +1,18 @@
+import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
+import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/elements/forms/DeleteBulkForm";
+import "@goauthentik/elements/forms/ModalForm";
+import "@goauthentik/components/ak-status-label";
 import "@goauthentik/admin/blueprints/BlueprintForm";
 import "@goauthentik/admin/rbac/ObjectPermissionModal";
+
 import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
 import { EVENT_REFRESH } from "@goauthentik/common/constants";
 import { formatElapsedTime } from "@goauthentik/common/temporal";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/elements/buttons/ActionButton";
-import "@goauthentik/elements/buttons/SpinnerButton";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
-import { TableColumn } from "@goauthentik/elements/table/Table";
+
+import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
 import { TablePage } from "@goauthentik/elements/table/TablePage";
-import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-
-import { msg } from "@lit/localize";
-import { CSSResult, TemplateResult, html } from "lit";
-import { customElement, property } from "lit/decorators.js";
-
-import PFDescriptionList from "@patternfly/patternfly/components/DescriptionList/description-list.css";
 
 import {
     BlueprintInstance,
@@ -25,6 +20,12 @@ import {
     ManagedApi,
     RbacPermissionsAssignedByUsersListModelEnum,
 } from "@goauthentik/api";
+
+import { msg } from "@lit/localize";
+import { CSSResult, TemplateResult, html } from "lit";
+import { customElement, property } from "lit/decorators.js";
+
+import PFDescriptionList from "@patternfly/patternfly/components/DescriptionList/description-list.css";
 
 export function BlueprintStatus(blueprint?: BlueprintInstance): string {
     if (!blueprint) return "";

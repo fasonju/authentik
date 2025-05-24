@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base.js";
-import { randomId } from "@goauthentik/elements/utils/randomId.js";
+import { AKElement } from "@goauthentik/elements/Base";
+import { randomId } from "@goauthentik/elements/utils/randomId";
 
 import { msg } from "@lit/localize";
 import { html } from "lit";

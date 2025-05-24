@@ -1,12 +1,13 @@
-import { AKElement } from "@goauthentik/elements/Base.js";
-import { bound } from "@goauthentik/elements/decorators/bound.js";
+import { AKElement } from "@goauthentik/elements/Base";
+import { bound } from "@goauthentik/elements/decorators/bound";
 import type {
     GroupedOptions,
     SelectGroup,
     SelectOption,
     SelectOptions,
-} from "@goauthentik/elements/types.js";
-import { randomId } from "@goauthentik/elements/utils/randomId.js";
+} from "@goauthentik/elements/types";
+import { randomId } from "@goauthentik/elements/utils/randomId";
+
 import { match } from "ts-pattern";
 
 import { PropertyValueMap, css, html, nothing } from "lit";

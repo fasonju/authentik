@@ -7,12 +7,12 @@ import { classMap } from "lit/directives/class-map.js";
 import { map } from "lit/directives/map.js";
 import { createRef, ref } from "lit/directives/ref.js";
 
-import { availablePaneStyles, listStyles } from "./styles.css";
 import PFButton from "@patternfly/patternfly/components/Button/button.css";
 import PFDualListSelector from "@patternfly/patternfly/components/DualListSelector/dual-list-selector.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 
 import { DualSelectEventType, DualSelectPair } from "../types.js";
+import { availablePaneStyles, listStyles } from "./styles.js";
 
 const hostAttributes = [
     ["aria-labelledby", "dual-list-selector-available-pane-status"],

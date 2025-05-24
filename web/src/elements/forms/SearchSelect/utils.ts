@@ -3,7 +3,7 @@ import type {
     SelectGrouped,
     SelectOption,
     SelectOptions,
-} from "@goauthentik/elements/types.js";
+} from "@goauthentik/elements/types";
 
 type Pair = [string, SelectOption];
 const mapPair = (option: SelectOption): Pair => [option[0], option];

@@ -1,26 +1,28 @@
-import "#admin/providers/google_workspace/GoogleWorkspaceProviderViewPage";
-import "#admin/providers/ldap/LDAPProviderViewPage";
-import "#admin/providers/microsoft_entra/MicrosoftEntraProviderViewPage";
-import "#admin/providers/oauth2/OAuth2ProviderViewPage";
-import "#admin/providers/proxy/ProxyProviderViewPage";
-import "#admin/providers/rac/RACProviderViewPage";
-import "#admin/providers/radius/RadiusProviderViewPage";
-import "#admin/providers/saml/SAMLProviderViewPage";
-import "#admin/providers/scim/SCIMProviderViewPage";
-import "#admin/providers/ssf/SSFProviderViewPage";
-import { DEFAULT_CONFIG } from "#common/api/config";
-import "#components/ak-page-header";
-import { AKElement } from "#elements/Base";
-import "#elements/EmptyState";
-import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/elements/EmptyState";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/components/ak-page-header";
+import "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderViewPage";
+import "@goauthentik/admin/providers/ldap/LDAPProviderViewPage";
+import "@goauthentik/admin/providers/microsoft_entra/MicrosoftEntraProviderViewPage";
+import "@goauthentik/admin/providers/oauth2/OAuth2ProviderViewPage";
+import "@goauthentik/admin/providers/proxy/ProxyProviderViewPage";
+import "@goauthentik/admin/providers/rac/RACProviderViewPage";
+import "@goauthentik/admin/providers/radius/RadiusProviderViewPage";
+import "@goauthentik/admin/providers/saml/SAMLProviderViewPage";
+import "@goauthentik/admin/providers/scim/SCIMProviderViewPage";
+import "@goauthentik/admin/providers/ssf/SSFProviderViewPage";
+
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+
+import { AKElement } from "@goauthentik/elements/Base";
+
+import { Provider, ProvidersApi } from "@goauthentik/api";
 
 import { CSSResult, TemplateResult, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { ifDefined } from "lit/directives/if-defined.js";
 
 import PFPage from "@patternfly/patternfly/components/Page/page.css";
-
-import { Provider, ProvidersApi } from "@goauthentik/api";
 
 @customElement("ak-provider-view")
 export class ProviderViewPage extends AKElement {

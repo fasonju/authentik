@@ -1,5 +1,6 @@
+import "@goauthentik/elements/forms/HorizontalFormElement";
+
 import { AKElement } from "@goauthentik/elements/Base";
-import "@goauthentik/elements/forms/HorizontalFormElement.js";
 
 import { TemplateResult, html, nothing } from "lit";
 import { property } from "lit/decorators.js";

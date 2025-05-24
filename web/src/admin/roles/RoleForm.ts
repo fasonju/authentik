@@ -1,16 +1,18 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
 import "@goauthentik/elements/chips/Chip";
 import "@goauthentik/elements/chips/ChipGroup";
 import "@goauthentik/elements/forms/HorizontalFormElement";
+import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+
 import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
-import "@goauthentik/elements/forms/SearchSelect";
+
+import { RbacApi, Role } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { TemplateResult, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import { ifDefined } from "lit/directives/if-defined.js";
-
-import { RbacApi, Role } from "@goauthentik/api";
 
 @customElement("ak-role-form")
 export class RoleForm extends ModelForm<Role, string> {

@@ -6,12 +6,12 @@ import { customElement, property, state } from "lit/decorators.js";
 import { classMap } from "lit/directives/class-map.js";
 import { map } from "lit/directives/map.js";
 
-import { listStyles, selectedPaneStyles } from "./styles.css";
 import PFButton from "@patternfly/patternfly/components/Button/button.css";
 import PFDualListSelector from "@patternfly/patternfly/components/DualListSelector/dual-list-selector.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 
-import { DualSelectEventType, DualSelectPair } from "../types";
+import { DualSelectEventType, DualSelectPair } from "../types.js";
+import { listStyles, selectedPaneStyles } from "./styles.js";
 
 const hostAttributes = [
     ["aria-labelledby", "dual-list-selector-selected-pane-status"],

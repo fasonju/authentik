@@ -1,10 +1,11 @@
 import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { PFSize } from "@goauthentik/common/enums.js";
+import { PFSize } from "@goauthentik/common/enums";
 import {
     APIError,
     parseAPIResponseError,
     pluckErrorDetail,
 } from "@goauthentik/common/errors/network";
+
 import { AggregateCard } from "@goauthentik/elements/cards/AggregateCard";
 
 import { msg } from "@lit/localize";

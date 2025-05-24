@@ -1,3 +1,5 @@
+import "@goauthentik/elements/messages/Message";
+
 import {
     EVENT_MESSAGE,
     EVENT_WS_MESSAGE,
@@ -5,11 +7,13 @@ import {
 } from "@goauthentik/common/constants";
 import { APIError, pluckErrorDetail } from "@goauthentik/common/errors/network";
 import { MessageLevel } from "@goauthentik/common/messages";
-import { SentryIgnoredError } from "@goauthentik/common/sentry";
+import { SentryIgnoredError } from "@goauthentik/common/sentry/index";
 import { WSMessage } from "@goauthentik/common/ws";
+
 import { AKElement } from "@goauthentik/elements/Base";
-import "@goauthentik/elements/messages/Message";
 import { APIMessage } from "@goauthentik/elements/messages/Message";
+
+import { instanceOfValidationError } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html } from "lit";
@@ -17,8 +21,6 @@ import { customElement, property } from "lit/decorators.js";
 
 import PFAlertGroup from "@patternfly/patternfly/components/AlertGroup/alert-group.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
-
-import { instanceOfValidationError } from "@goauthentik/api";
 
 /**
  * Adds a message to the message container, displaying it to the user.

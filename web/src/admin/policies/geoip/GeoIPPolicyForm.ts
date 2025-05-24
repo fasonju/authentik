@@ -1,18 +1,21 @@
-import { BasePolicyForm } from "@goauthentik/admin/policies/BasePolicyForm";
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import "@goauthentik/elements/ak-dual-select";
-import { DataProvision, DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
+import "@goauthentik/elements/ak-dual-select/index";
 import "@goauthentik/elements/forms/FormGroup";
 import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect";
+import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+
+import { DataProvision, DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
+
+import { BasePolicyForm } from "@goauthentik/admin/policies/BasePolicyForm";
+
+import { DetailedCountry, GeoIPPolicy, PoliciesApi } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { TemplateResult, html } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import { DetailedCountry, GeoIPPolicy, PoliciesApi } from "@goauthentik/api";
-
-import { countryCache } from "./CountryCache";
+import { countryCache } from "./CountryCache.js";
 
 function countryToPair(country: DetailedCountry): DualSelectPair {
     return [country.code, country.name, country.name];

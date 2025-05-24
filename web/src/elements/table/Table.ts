@@ -1,3 +1,10 @@
+import "@goauthentik/elements/EmptyState";
+import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "@goauthentik/elements/chips/Chip";
+import "@goauthentik/elements/chips/ChipGroup";
+import "@goauthentik/elements/table/TablePagination";
+import "@goauthentik/elements/table/TableSearch";
+
 import { EVENT_REFRESH } from "@goauthentik/common/constants";
 import {
     APIError,
@@ -6,15 +13,12 @@ import {
 } from "@goauthentik/common/errors/network";
 import { uiConfig } from "@goauthentik/common/ui/config";
 import { groupBy } from "@goauthentik/common/utils";
+
 import { AKElement } from "@goauthentik/elements/Base";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/buttons/SpinnerButton";
-import "@goauthentik/elements/chips/Chip";
-import "@goauthentik/elements/chips/ChipGroup";
 import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
-import "@goauthentik/elements/table/TablePagination";
-import "@goauthentik/elements/table/TableSearch";
 import { SlottedTemplateResult } from "@goauthentik/elements/types";
+
+import { Pagination } from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, css, html, nothing } from "lit";
@@ -30,8 +34,6 @@ import PFTable from "@patternfly/patternfly/components/Table/table.css";
 import PFToolbar from "@patternfly/patternfly/components/Toolbar/toolbar.css";
 import PFBullseye from "@patternfly/patternfly/layouts/Bullseye/bullseye.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
-
-import { Pagination } from "@goauthentik/api";
 
 export interface TableLike {
     order?: string;

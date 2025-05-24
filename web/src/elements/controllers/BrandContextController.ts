@@ -1,13 +1,14 @@
-import { DEFAULT_CONFIG } from "#common/api/config";
-import { EVENT_REFRESH } from "#common/constants";
-import { isCausedByAbortError } from "#common/errors/network";
-import { BrandingContext, BrandingMixin } from "#elements/mixins/branding";
-import type { ReactiveElementHost } from "#elements/types";
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { isCausedByAbortError } from "@goauthentik/common/errors/network";
+
+import { BrandingContext, BrandingMixin } from "@goauthentik/elements/mixins/branding";
+import type { ReactiveElementHost } from "@goauthentik/elements/types";
+
+import { CoreApi, CurrentBrand } from "@goauthentik/api";
 
 import { ContextProvider } from "@lit/context";
 import type { ReactiveController } from "lit";
-
-import { CoreApi, CurrentBrand } from "@goauthentik/api";
 
 export class BrandingContextController implements ReactiveController {
     #log = console.debug.bind(console, `authentik/controller/branding`);

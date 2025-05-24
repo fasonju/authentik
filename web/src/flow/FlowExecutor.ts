@@ -1,21 +1,37 @@
-import { DEFAULT_CONFIG } from "#common/api/config";
-import { EVENT_FLOW_ADVANCE, EVENT_FLOW_INSPECTOR_TOGGLE } from "#common/constants";
-import { globalAK } from "#common/global";
-import { configureSentry } from "#common/sentry/index";
-import { WebsocketClient } from "#common/ws";
-import { Interface } from "#elements/Interface";
-import "#elements/LoadingOverlay";
-import "#elements/ak-locale-context/ak-locale-context";
-import { WithBrandConfig } from "#elements/mixins/branding";
-import { WithCapabilitiesConfig } from "#elements/mixins/capabilities";
-import { themeImage } from "#elements/utils/images";
-import "#flow/components/ak-brand-footer";
-import "#flow/sources/apple/AppleLoginInit";
-import "#flow/sources/plex/PlexLoginInit";
-import "#flow/stages/FlowErrorStage";
-import "#flow/stages/FlowFrameStage";
-import "#flow/stages/RedirectStage";
-import { StageHost, SubmitOptions } from "#flow/stages/base";
+import "@goauthentik/elements/LoadingOverlay";
+import "@goauthentik/elements/ak-locale-context/ak-locale-context";
+import "@goauthentik/flow/components/ak-brand-footer";
+import "@goauthentik/flow/sources/apple/AppleLoginInit";
+import "@goauthentik/flow/sources/plex/PlexLoginInit";
+import "@goauthentik/flow/stages/FlowErrorStage";
+import "@goauthentik/flow/stages/FlowFrameStage";
+import "@goauthentik/flow/stages/RedirectStage";
+
+import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { EVENT_FLOW_ADVANCE, EVENT_FLOW_INSPECTOR_TOGGLE } from "@goauthentik/common/constants";
+import { globalAK } from "@goauthentik/common/global";
+import { configureSentry } from "@goauthentik/common/sentry/index";
+import { WebsocketClient } from "@goauthentik/common/ws";
+
+import { Interface } from "@goauthentik/elements/Interface";
+import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import {
+    CapabilitiesEnum,
+    WithCapabilitiesConfig,
+} from "@goauthentik/elements/mixins/capabilities";
+import { themeImage } from "@goauthentik/elements/utils/images";
+
+import {
+    ChallengeTypes,
+    ContextualFlowInfo,
+    FetchError,
+    FlowChallengeResponseRequest,
+    FlowErrorChallenge,
+    FlowLayoutEnum,
+    FlowsApi,
+    ResponseError,
+    ShellChallenge,
+} from "@goauthentik/api";
 
 import { msg } from "@lit/localize";
 import { CSSResult, PropertyValues, TemplateResult, css, html, nothing } from "lit";
@@ -31,18 +47,7 @@ import PFLogin from "@patternfly/patternfly/components/Login/login.css";
 import PFTitle from "@patternfly/patternfly/components/Title/title.css";
 import PFBase from "@patternfly/patternfly/patternfly-base.css";
 
-import {
-    CapabilitiesEnum,
-    ChallengeTypes,
-    ContextualFlowInfo,
-    FetchError,
-    FlowChallengeResponseRequest,
-    FlowErrorChallenge,
-    FlowLayoutEnum,
-    FlowsApi,
-    ResponseError,
-    ShellChallenge,
-} from "@goauthentik/api";
+import type { StageHost, SubmitOptions } from "./stages/base.js";
 
 @customElement("ak-flow-executor")
 export class FlowExecutor
