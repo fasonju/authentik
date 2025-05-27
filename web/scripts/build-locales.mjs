@@ -15,7 +15,7 @@
 import { PackageRoot } from "#paths/node";
 import { spawnSync } from "node:child_process";
 import { readFileSync, statSync } from "node:fs";
-import path from "node:path";
+import * as path from "node:path";
 
 /**
  * @type {ConfigFile}
