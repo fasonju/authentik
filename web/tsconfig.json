@@ -5,7 +5,6 @@
         "checkJs": true,
         "allowJs": true,
         "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
         "emitDeclarationOnly": true,
         "experimentalDecorators": true,
         // See https://lit.dev/docs/components/properties/
