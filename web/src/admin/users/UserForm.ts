@@ -1,12 +1,12 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/admin/users/GroupSelectModal";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#admin/users/GroupSelectModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { CoreApi, Group, User, UserTypeEnum } from "@goauthentik/api";
 

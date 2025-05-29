@@ -1,5 +1,5 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
 
 import {
     AuthenticatorValidationChallenge,

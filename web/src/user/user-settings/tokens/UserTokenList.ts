@@ -1,18 +1,18 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/user/user-settings/tokens/UserTokenForm";
+import "#elements/buttons/Dropdown";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#components/ak-status-label";
+import "#user/user-settings/tokens/UserTokenForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { intentToLabel } from "@goauthentik/common/labels";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { intentToLabel } from "#common/labels";
+import { formatElapsedTime } from "#common/temporal";
+import { me } from "#common/users";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { CoreApi, IntentEnum, Token } from "@goauthentik/api";
 

@@ -1,6 +1,6 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, html } from "lit";

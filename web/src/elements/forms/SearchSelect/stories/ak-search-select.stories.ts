@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select-ez";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/SearchSelect/ak-search-select-ez";
 
-import { groupBy } from "@goauthentik/common/utils";
+import { groupBy } from "#common/utils";
 
-import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import { type ISearchSelectApi } from "@goauthentik/elements/forms/SearchSelect/ak-search-select-ez";
+import { SearchSelect } from "#elements/forms/SearchSelect/ak-search-select";
+import { type ISearchSelectApi } from "#elements/forms/SearchSelect/ak-search-select-ez";
 
 import { Meta } from "@storybook/web-components";
 

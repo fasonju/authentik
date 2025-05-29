@@ -4,11 +4,8 @@ import "./components/ak-dual-select-selected-pane.js";
 import "./components/ak-pagination.js";
 import "./components/ak-search-bar.js";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import {
-    CustomEmitterElement,
-    CustomListenerElement,
-} from "@goauthentik/elements/utils/eventEmitter";
+import { AKElement } from "#elements/Base";
+import { CustomEmitterElement, CustomListenerElement } from "#elements/utils/eventEmitter";
 
 import { match } from "ts-pattern";
 

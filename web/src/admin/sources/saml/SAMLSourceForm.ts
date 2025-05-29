@@ -1,24 +1,18 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-source-flow-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/utils/TimeDeltaHelp";
+import "#admin/common/ak-crypto-certificate-search";
+import "#admin/common/ak-flow-search/ak-source-flow-search";
 
-import { DEFAULT_CONFIG, config } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG, config } from "#common/api/config";
 
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
 
-import { iconHelperText, placeholderHelperText } from "@goauthentik/admin/helperText";
-import { BaseSourceForm } from "@goauthentik/admin/sources/BaseSourceForm";
-import {
-    GroupMatchingModeToLabel,
-    UserMatchingModeToLabel,
-} from "@goauthentik/admin/sources/oauth/utils";
+import { iconHelperText, placeholderHelperText } from "#admin/helperText";
+import { BaseSourceForm } from "#admin/sources/BaseSourceForm";
+import { GroupMatchingModeToLabel, UserMatchingModeToLabel } from "#admin/sources/oauth/utils";
 
 import {
     BindingTypeEnum,

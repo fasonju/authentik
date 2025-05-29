@@ -1,12 +1,12 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/flow/stages/prompt/PromptStage";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
+import "#flow/stages/prompt/PromptStage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { parseAPIResponseError, pluckErrorDetail } from "@goauthentik/common/errors/network";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import {
     Prompt,

@@ -1,11 +1,11 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import {
     FlowStageBinding,

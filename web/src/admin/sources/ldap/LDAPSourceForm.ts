@@ -1,13 +1,13 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-crypto-certificate-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { placeholderHelperText } from "@goauthentik/admin/helperText";
-import { BaseSourceForm } from "@goauthentik/admin/sources/BaseSourceForm";
+import { placeholderHelperText } from "#admin/helperText";
+import { BaseSourceForm } from "#admin/sources/BaseSourceForm";
 
 import {
     CoreApi,

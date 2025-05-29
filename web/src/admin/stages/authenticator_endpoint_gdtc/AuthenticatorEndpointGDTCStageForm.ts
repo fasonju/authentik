@@ -1,12 +1,12 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/CodeMirror";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
+import { CodeMirrorMode } from "#elements/CodeMirror";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import { AuthenticatorEndpointGDTCStage, StagesApi } from "@goauthentik/api";
 

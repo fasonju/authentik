@@ -1,6 +1,6 @@
 import "./EnterpriseStatusCard.js";
 
-import { render } from "@goauthentik/elements/tests/utils";
+import { render } from "#elements/tests/utils";
 
 import { LicenseForecast, LicenseSummary, LicenseSummaryStatusEnum } from "@goauthentik/api";
 

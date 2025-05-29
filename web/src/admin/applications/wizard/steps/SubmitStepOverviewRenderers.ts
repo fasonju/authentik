@@ -1,7 +1,4 @@
-import {
-    type DescriptionPair,
-    renderDescriptionList,
-} from "@goauthentik/components/DescriptionList";
+import { type DescriptionPair, renderDescriptionList } from "#components/DescriptionList";
 
 import {
     ClientTypeEnum,

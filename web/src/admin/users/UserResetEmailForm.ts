@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { Form } from "@goauthentik/elements/forms/Form";
+import { Form } from "#elements/forms/Form";
 
 import {
     CoreApi,

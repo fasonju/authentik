@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/DeleteBulkForm";
+import "#elements/forms/DeleteBulkForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { AuthenticatedSession, CoreApi } from "@goauthentik/api";
 

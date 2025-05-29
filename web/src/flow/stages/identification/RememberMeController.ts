@@ -1,4 +1,4 @@
-import { getCookie } from "@goauthentik/common/utils";
+import { getCookie } from "#common/utils";
 
 import { msg } from "@lit/localize";
 import { ReactiveController, ReactiveControllerHost, css, html, nothing } from "lit";

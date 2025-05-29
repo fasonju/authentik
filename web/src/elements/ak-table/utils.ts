@@ -1,4 +1,4 @@
-import { groupBy as groupByProcessor } from "@goauthentik/common/utils";
+import { groupBy as groupByProcessor } from "#common/utils";
 
 import { html } from "lit";
 

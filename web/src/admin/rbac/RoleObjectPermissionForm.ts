@@ -1,11 +1,11 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/components/ak-toggle-group";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#components/ak-toggle-group";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import {
     ModelEnum,

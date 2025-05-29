@@ -1,15 +1,12 @@
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/ActionButton/ak-action-button";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import {
-    EVENT_API_DRAWER_TOGGLE,
-    EVENT_NOTIFICATION_DRAWER_TOGGLE,
-} from "@goauthentik/common/constants";
-import { globalAK } from "@goauthentik/common/global";
-import { UIConfig, UserDisplay, uiConfig } from "@goauthentik/common/ui/config";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_API_DRAWER_TOGGLE, EVENT_NOTIFICATION_DRAWER_TOGGLE } from "#common/constants";
+import { globalAK } from "#common/global";
+import { UIConfig, UserDisplay, uiConfig } from "#common/ui/config";
+import { me } from "#common/users";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { CoreApi, EventsApi, SessionUser } from "@goauthentik/api";
 

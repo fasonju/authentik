@@ -1,7 +1,7 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
-import "@goauthentik/flow/FormStatic";
-import "@goauthentik/flow/components/ak-flow-password-input";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
+import "#flow/FormStatic";
+import "#flow/components/ak-flow-password-input";
 
 import { PasswordChallenge, PasswordChallengeResponseRequest } from "@goauthentik/api";
 

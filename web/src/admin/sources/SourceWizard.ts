@@ -1,18 +1,18 @@
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/elements/wizard/FormWizardPage";
-import "@goauthentik/elements/wizard/Wizard";
-import "@goauthentik/admin/sources/kerberos/KerberosSourceForm";
-import "@goauthentik/admin/sources/ldap/LDAPSourceForm";
-import "@goauthentik/admin/sources/oauth/OAuthSourceForm";
-import "@goauthentik/admin/sources/plex/PlexSourceForm";
-import "@goauthentik/admin/sources/saml/SAMLSourceForm";
-import "@goauthentik/admin/sources/scim/SCIMSourceForm";
+import "#elements/forms/ProxyForm";
+import "#elements/wizard/FormWizardPage";
+import "#elements/wizard/Wizard";
+import "#admin/sources/kerberos/KerberosSourceForm";
+import "#admin/sources/ldap/LDAPSourceForm";
+import "#admin/sources/oauth/OAuthSourceForm";
+import "#admin/sources/plex/PlexSourceForm";
+import "#admin/sources/saml/SAMLSourceForm";
+import "#admin/sources/scim/SCIMSourceForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { TypeCreateWizardPageLayouts } from "@goauthentik/elements/wizard/TypeCreateWizardPage";
-import type { Wizard } from "@goauthentik/elements/wizard/Wizard";
+import { AKElement } from "#elements/Base";
+import { TypeCreateWizardPageLayouts } from "#elements/wizard/TypeCreateWizardPage";
+import type { Wizard } from "#elements/wizard/Wizard";
 
 import { SourcesApi, TypeCreate } from "@goauthentik/api";
 

@@ -1,17 +1,17 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/events/LogViewer";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/microsoft_entra/MicrosoftEntraProviderForm";
-import "@goauthentik/admin/providers/microsoft_entra/MicrosoftEntraProviderGroupList";
-import "@goauthentik/admin/providers/microsoft_entra/MicrosoftEntraProviderUserList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/Tabs";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/ModalButton";
+import "#elements/events/LogViewer";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/microsoft_entra/MicrosoftEntraProviderForm";
+import "#admin/providers/microsoft_entra/MicrosoftEntraProviderGroupList";
+import "#admin/providers/microsoft_entra/MicrosoftEntraProviderUserList";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     MicrosoftEntraProvider,

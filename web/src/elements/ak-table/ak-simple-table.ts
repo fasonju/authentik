@@ -1,6 +1,6 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { bound } from "@goauthentik/elements/decorators/bound";
-import { randomId } from "@goauthentik/elements/utils/randomId";
+import { AKElement } from "#elements/Base";
+import { bound } from "#elements/decorators/bound";
+import { randomId } from "#elements/utils/randomId";
 
 import { TemplateResult, css, html } from "lit";
 import { customElement, property } from "lit/decorators.js";

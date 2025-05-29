@@ -1,7 +1,7 @@
-import "@goauthentik/admin/providers/oauth2/OAuth2ProviderRedirectURI";
+import "#admin/providers/oauth2/OAuth2ProviderRedirectURI";
 
-import { AkControlElement } from "@goauthentik/elements/AkControlElement";
-import { type Spread } from "@goauthentik/elements/types";
+import { AkControlElement } from "#elements/AkControlElement";
+import { type Spread } from "#elements/types";
 
 import { MatchingModeEnum, RedirectURI } from "@goauthentik/api";
 

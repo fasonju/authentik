@@ -1,16 +1,16 @@
 /// <reference types="@hcaptcha/types"/>
 /// <reference types="turnstile-types"/>
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
-import "@goauthentik/flow/FormStatic";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
+import "#flow/FormStatic";
 
-import { renderStaticHTMLUnsafe } from "@goauthentik/common/purify";
+import { renderStaticHTMLUnsafe } from "#common/purify";
 
-import { akEmptyState } from "@goauthentik/elements/EmptyState";
-import { bound } from "@goauthentik/elements/decorators/bound";
-import { createIFrameHTMLWrapper } from "@goauthentik/elements/utils/iframe";
-import { ListenerController } from "@goauthentik/elements/utils/listenerController";
-import { randomId } from "@goauthentik/elements/utils/randomId";
+import { akEmptyState } from "#elements/EmptyState";
+import { bound } from "#elements/decorators/bound";
+import { createIFrameHTMLWrapper } from "#elements/utils/iframe";
+import { ListenerController } from "#elements/utils/listenerController";
+import { randomId } from "#elements/utils/randomId";
 
 import { CaptchaChallenge, CaptchaChallengeResponseRequest } from "@goauthentik/api";
 

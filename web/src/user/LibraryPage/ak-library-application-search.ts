@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
+import { AKElement } from "#elements/Base";
+import { getURLParam, updateURLParams } from "#elements/router/RouteMatch";
 
 import type { Application } from "@goauthentik/api";
 

@@ -1,11 +1,11 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search-no-default";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-flow-search/ak-flow-search-no-default";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { SentryIgnoredError } from "@goauthentik/common/sentry/index";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { SentryIgnoredError } from "#common/sentry/index";
 
-import { Form } from "@goauthentik/elements/forms/Form";
+import { Form } from "#elements/forms/Form";
 
 import { FlowsInstancesListDesignationEnum, ProvidersApi, SAMLProvider } from "@goauthentik/api";
 

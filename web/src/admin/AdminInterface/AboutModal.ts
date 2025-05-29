@@ -1,11 +1,11 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { globalAK } from "@goauthentik/common/global";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { globalAK } from "#common/global";
 
-import { ModalButton } from "@goauthentik/elements/buttons/ModalButton";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
+import { ModalButton } from "#elements/buttons/ModalButton";
+import { WithBrandConfig } from "#elements/mixins/branding";
+import { WithLicenseSummary } from "#elements/mixins/license";
 
 import { AdminApi, CapabilitiesEnum, LicenseSummaryStatusEnum } from "@goauthentik/api";
 

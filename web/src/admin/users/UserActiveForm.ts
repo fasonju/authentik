@@ -1,10 +1,10 @@
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
 
-import { parseAPIResponseError, pluckErrorDetail } from "@goauthentik/common/errors/network";
-import { MessageLevel } from "@goauthentik/common/messages";
+import { parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
+import { MessageLevel } from "#common/messages";
 
-import { DeleteForm } from "@goauthentik/elements/forms/DeleteForm";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { DeleteForm } from "#elements/forms/DeleteForm";
+import { showMessage } from "#elements/messages/MessageContainer";
 
 import { msg, str } from "@lit/localize";
 import { TemplateResult, html } from "lit";

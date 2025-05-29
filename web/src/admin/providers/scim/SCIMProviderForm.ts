@@ -1,6 +1,6 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 
 import { ProvidersApi, SCIMProvider } from "@goauthentik/api";
 

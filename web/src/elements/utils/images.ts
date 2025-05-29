@@ -1,6 +1,6 @@
-import { resolveUITheme, rootInterface } from "@goauthentik/common/theme";
+import { resolveUITheme, rootInterface } from "#common/theme";
 
-import type { AKElement } from "@goauthentik/elements/Base";
+import type { AKElement } from "#elements/Base";
 
 export function themeImage(rawPath: string) {
     const enabledTheme = rootInterface<AKElement>()?.activeTheme || resolveUITheme();

@@ -1,6 +1,6 @@
-import "@goauthentik/flow/FormStatic";
+import "#flow/FormStatic";
 
-import { globalAK } from "@goauthentik/common/global";
+import { globalAK } from "#common/global";
 
 import { SessionEndChallenge } from "@goauthentik/api";
 

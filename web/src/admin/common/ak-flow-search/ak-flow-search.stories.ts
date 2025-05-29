@@ -1,7 +1,7 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/forms/HorizontalFormElement";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { AkFlowSearch } from "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import { AkFlowSearch } from "#admin/common/ak-flow-search/ak-flow-search";
 
 import { Flow, FlowsInstancesListDesignationEnum } from "@goauthentik/api";
 

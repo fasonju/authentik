@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#elements/utils/TimeDeltaHelp";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import {
     Source,

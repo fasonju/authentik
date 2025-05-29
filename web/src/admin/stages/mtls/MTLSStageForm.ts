@@ -1,14 +1,14 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#admin/common/ak-crypto-certificate-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { certificateProvider, certificateSelector } from "@goauthentik/admin/brands/Certificates";
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { certificateProvider, certificateSelector } from "#admin/brands/Certificates";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import {
     CertAttributeEnum,

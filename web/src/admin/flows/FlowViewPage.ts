@@ -1,19 +1,19 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/flows/BoundStagesList";
-import "@goauthentik/admin/flows/FlowDiagram";
-import "@goauthentik/admin/flows/FlowForm";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/Tabs";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/ak-page-header";
+import "#components/events/ObjectChangelog";
+import "#admin/flows/BoundStagesList";
+import "#admin/flows/FlowDiagram";
+import "#admin/flows/FlowForm";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { AndNext, DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { isResponseErrorLike } from "@goauthentik/common/errors/network";
+import { AndNext, DEFAULT_CONFIG } from "#common/api/config";
+import { isResponseErrorLike } from "#common/errors/network";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { DesignationToLabel } from "@goauthentik/admin/flows/utils";
+import { DesignationToLabel } from "#admin/flows/utils";
 
 import { Flow, FlowsApi, RbacPermissionsAssignedByUsersListModelEnum } from "@goauthentik/api";
 

@@ -1,14 +1,14 @@
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { parseAPIResponseError } from "@goauthentik/common/errors/network";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { parseAPIResponseError } from "#common/errors/network";
 
-import { showAPIErrorMessage } from "@goauthentik/elements/messages/MessageContainer";
-import { CustomEmitterElement } from "@goauthentik/elements/utils/eventEmitter";
+import { showAPIErrorMessage } from "#elements/messages/MessageContainer";
+import { CustomEmitterElement } from "#elements/utils/eventEmitter";
 
-import { WizardNavigationEvent } from "@goauthentik/components/ak-wizard/events";
-import { type WizardButton } from "@goauthentik/components/ak-wizard/types";
+import { WizardNavigationEvent } from "#components/ak-wizard/events";
+import { type WizardButton } from "#components/ak-wizard/types";
 
 import {
     type ApplicationRequest,

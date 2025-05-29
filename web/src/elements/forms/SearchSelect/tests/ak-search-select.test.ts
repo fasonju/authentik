@@ -1,10 +1,10 @@
 /* eslint-env jest */
 import "../ak-search-select.js";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { bound } from "@goauthentik/elements/decorators/bound";
-import { render } from "@goauthentik/elements/tests/utils";
-import { CustomListenerElement } from "@goauthentik/elements/utils/eventEmitter";
+import { AKElement } from "#elements/Base";
+import { bound } from "#elements/decorators/bound";
+import { render } from "#elements/tests/utils";
+import { CustomListenerElement } from "#elements/utils/eventEmitter";
 
 import { $, browser, expect } from "@wdio/globals";
 import { slug } from "github-slugger";

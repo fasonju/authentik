@@ -1,34 +1,31 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/admin/users/ServiceAccountForm";
-import "@goauthentik/admin/users/UserActiveForm";
-import "@goauthentik/admin/users/UserForm";
-import "@goauthentik/admin/users/UserImpersonateForm";
-import "@goauthentik/admin/users/UserPasswordForm";
-import "@goauthentik/admin/users/UserResetEmailForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/ModalForm";
+import "#admin/users/ServiceAccountForm";
+import "#admin/users/UserActiveForm";
+import "#admin/users/UserForm";
+import "#admin/users/UserImpersonateForm";
+import "#admin/users/UserPasswordForm";
+import "#admin/users/UserResetEmailForm";
+import "#components/ak-status-label";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/Dropdown";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/ModalForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
-import { parseAPIResponseError, pluckErrorDetail } from "@goauthentik/common/errors/network";
-import { MessageLevel } from "@goauthentik/common/messages";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
+import { parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
+import { MessageLevel } from "#common/messages";
+import { formatElapsedTime } from "#common/temporal";
+import { me } from "#common/users";
 
-import { Form } from "@goauthentik/elements/forms/Form";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
-import { getURLParam, updateURLParams } from "@goauthentik/elements/router/RouteMatch";
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
-import { UserOption } from "@goauthentik/elements/user/utils";
+import { Form } from "#elements/forms/Form";
+import { showMessage } from "#elements/messages/MessageContainer";
+import { WithBrandConfig } from "#elements/mixins/branding";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
+import { getURLParam, updateURLParams } from "#elements/router/RouteMatch";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
+import { UserOption } from "#elements/user/utils";
 
 import { CoreApi, CoreUsersListTypeEnum, Group, SessionUser, User } from "@goauthentik/api";
 

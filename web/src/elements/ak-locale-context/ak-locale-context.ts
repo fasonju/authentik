@@ -1,8 +1,8 @@
-import { EVENT_LOCALE_CHANGE, EVENT_LOCALE_REQUEST } from "@goauthentik/common/constants";
+import { EVENT_LOCALE_CHANGE, EVENT_LOCALE_REQUEST } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
-import { customEvent } from "@goauthentik/elements/utils/customEvents";
+import { AKElement } from "#elements/Base";
+import { WithBrandConfig } from "#elements/mixins/branding";
+import { customEvent } from "#elements/utils/customEvents";
 
 import { html } from "lit";
 import { customElement, property } from "lit/decorators.js";

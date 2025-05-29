@@ -1,14 +1,14 @@
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { WizardUpdateEvent } from "@goauthentik/components/ak-wizard/events";
+import { WizardUpdateEvent } from "#components/ak-wizard/events";
 
-import { ValidationRecord } from "@goauthentik/admin/applications/wizard/types";
+import { ValidationRecord } from "#admin/applications/wizard/types";
 import {
     ProxyModeValue,
     type SetMode,
     type SetShowHttpBasic,
     renderForm,
-} from "@goauthentik/admin/providers/proxy/ProxyProviderFormForm";
+} from "#admin/providers/proxy/ProxyProviderFormForm";
 
 import { ProxyMode, ProxyProvider } from "@goauthentik/api";
 

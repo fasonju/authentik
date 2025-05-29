@@ -1,8 +1,8 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#elements/forms/FormGroup";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { type AkCryptoCertificateSearch } from "@goauthentik/admin/common/ak-crypto-certificate-search";
-import { renderForm } from "@goauthentik/admin/providers/saml/SAMLProviderFormForm";
+import { type AkCryptoCertificateSearch } from "#admin/common/ak-crypto-certificate-search";
+import { renderForm } from "#admin/providers/saml/SAMLProviderFormForm";
 
 import { SAMLProvider } from "@goauthentik/api";
 

@@ -1,13 +1,13 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#elements/utils/TimeDeltaHelp";
+import "#admin/common/ak-crypto-certificate-search";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
 import {
     FlowsInstancesListDesignationEnum,

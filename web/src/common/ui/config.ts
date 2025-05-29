@@ -1,6 +1,6 @@
-import { me } from "@goauthentik/common/users";
+import { me } from "#common/users";
 
-import { isUserRoute } from "@goauthentik/elements/router/utils";
+import { isUserRoute } from "#elements/router/utils";
 
 import { CurrentBrand, UiThemeEnum, UserSelf } from "@goauthentik/api";
 

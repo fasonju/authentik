@@ -1,8 +1,8 @@
-import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "#elements/buttons/TokenCopyButton/ak-token-copy-button";
 
-import { docLink } from "@goauthentik/common/global";
+import { docLink } from "#common/global";
 
-import { ModalButton } from "@goauthentik/elements/buttons/ModalButton";
+import { ModalButton } from "#elements/buttons/ModalButton";
 
 import { Outpost, OutpostTypeEnum } from "@goauthentik/api";
 

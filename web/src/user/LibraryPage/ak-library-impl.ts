@@ -1,14 +1,14 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/user/LibraryApplication/index";
+import "#elements/EmptyState";
+import "#user/LibraryApplication/index";
 import "./ak-library-application-empty-list.js";
 import "./ak-library-application-list.js";
 import "./ak-library-application-search-empty.js";
 import "./ak-library-application-search.js";
 
-import { groupBy } from "@goauthentik/common/utils";
+import { groupBy } from "#common/utils";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { bound } from "@goauthentik/elements/decorators/bound";
+import { AKElement } from "#elements/Base";
+import { bound } from "#elements/decorators/bound";
 
 import type { Application } from "@goauthentik/api";
 

@@ -1,10 +1,10 @@
-import "@goauthentik/elements/Divider";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
-import "@goauthentik/flow/components/ak-flow-password-input";
-import "@goauthentik/flow/stages/captcha/CaptchaStage";
+import "#elements/Divider";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
+import "#flow/components/ak-flow-password-input";
+import "#flow/stages/captcha/CaptchaStage";
 
-import { renderSourceIcon } from "@goauthentik/admin/sources/utils";
+import { renderSourceIcon } from "#admin/sources/utils";
 
 import {
     FlowDesignationEnum,

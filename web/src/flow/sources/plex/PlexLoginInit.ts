@@ -1,8 +1,8 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { parseAPIResponseError } from "@goauthentik/common/errors/network";
-import { PlexAPIClient, popupCenterScreen } from "@goauthentik/common/helpers/plex";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { parseAPIResponseError } from "#common/errors/network";
+import { PlexAPIClient, popupCenterScreen } from "#common/helpers/plex";
 
-import { showAPIErrorMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { showAPIErrorMessage } from "#elements/messages/MessageContainer";
 
 import {
     PlexAuthenticationChallenge,

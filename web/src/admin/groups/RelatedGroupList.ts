@@ -1,17 +1,17 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/admin/groups/GroupForm";
-import "@goauthentik/admin/groups/GroupForm";
-import "@goauthentik/admin/users/GroupSelectModal";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/ModalForm";
+import "#components/ak-status-label";
+import "#admin/groups/GroupForm";
+import "#admin/groups/GroupForm";
+import "#admin/users/GroupSelectModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { Form } from "@goauthentik/elements/forms/Form";
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { Form } from "#elements/forms/Form";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { CoreApi, Group, User } from "@goauthentik/api";
 

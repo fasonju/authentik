@@ -1,14 +1,14 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/components/ak-toggle-group";
+import "#elements/CodeMirror";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#components/ak-toggle-group";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { docLink } from "@goauthentik/common/global";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { docLink } from "#common/global";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { BlueprintFile, BlueprintInstance, ManagedApi } from "@goauthentik/api";
 

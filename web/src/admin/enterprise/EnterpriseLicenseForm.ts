@@ -1,10 +1,10 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH_ENTERPRISE } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH_ENTERPRISE } from "#common/constants";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { EnterpriseApi, License } from "@goauthentik/api";
 

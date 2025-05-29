@@ -1,12 +1,12 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { SSFStream, SsfApi } from "@goauthentik/api";
 

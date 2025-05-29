@@ -1,16 +1,16 @@
-import "@goauthentik/elements/AppIcon";
-import "@goauthentik/elements/Expand";
-import "@goauthentik/user/LibraryApplication/RACLaunchEndpointModal";
+import "#elements/AppIcon";
+import "#elements/Expand";
+import "#user/LibraryApplication/RACLaunchEndpointModal";
 
-import { PFSize } from "@goauthentik/common/enums";
-import { globalAK } from "@goauthentik/common/global";
-import { rootInterface } from "@goauthentik/common/theme";
-import { truncateWords } from "@goauthentik/common/utils";
+import { PFSize } from "#common/enums";
+import { globalAK } from "#common/global";
+import { rootInterface } from "#common/theme";
+import { truncateWords } from "#common/utils";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import type { RACLaunchEndpointModal } from "@goauthentik/user/LibraryApplication/RACLaunchEndpointModal";
-import type { UserInterface } from "@goauthentik/user/index.entrypoint";
+import type { RACLaunchEndpointModal } from "#user/LibraryApplication/RACLaunchEndpointModal";
+import type { UserInterface } from "#user/index.entrypoint";
 
 import { Application } from "@goauthentik/api";
 

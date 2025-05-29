@@ -1,11 +1,11 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { Form } from "@goauthentik/elements/forms/Form";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { Form } from "#elements/forms/Form";
 
 import {
     CoreApi,

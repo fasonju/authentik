@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "./sb-host-provider.js";
 import "../components/ak-dual-select-selected-pane.js";
 

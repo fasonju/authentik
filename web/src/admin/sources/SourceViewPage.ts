@@ -1,16 +1,16 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/admin/sources/kerberos/KerberosSourceViewPage";
-import "@goauthentik/admin/sources/ldap/LDAPSourceViewPage";
-import "@goauthentik/admin/sources/oauth/OAuthSourceViewPage";
-import "@goauthentik/admin/sources/plex/PlexSourceViewPage";
-import "@goauthentik/admin/sources/saml/SAMLSourceViewPage";
-import "@goauthentik/admin/sources/scim/SCIMSourceViewPage";
+import "#elements/EmptyState";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/ak-page-header";
+import "#admin/sources/kerberos/KerberosSourceViewPage";
+import "#admin/sources/ldap/LDAPSourceViewPage";
+import "#admin/sources/oauth/OAuthSourceViewPage";
+import "#admin/sources/plex/PlexSourceViewPage";
+import "#admin/sources/saml/SAMLSourceViewPage";
+import "#admin/sources/scim/SCIMSourceViewPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { Source, SourcesApi } from "@goauthentik/api";
 

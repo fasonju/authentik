@@ -1,18 +1,18 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
-import "@goauthentik/admin/sources/scim/SCIMSourceForm";
-import "@goauthentik/admin/sources/scim/SCIMSourceGroups";
-import "@goauthentik/admin/sources/scim/SCIMSourceUsers";
+import "#elements/Tabs";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "#elements/forms/ModalForm";
+import "#components/events/ObjectChangelog";
+import "#admin/rbac/ObjectPermissionsPage";
+import "#admin/sources/scim/SCIMSourceForm";
+import "#admin/sources/scim/SCIMSourceGroups";
+import "#admin/sources/scim/SCIMSourceUsers";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     RbacPermissionsAssignedByUsersListModelEnum,

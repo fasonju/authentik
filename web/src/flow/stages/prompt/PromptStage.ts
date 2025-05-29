@@ -1,12 +1,9 @@
-import "@goauthentik/elements/Divider";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
+import "#elements/Divider";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
 
-import { LOCALES } from "@goauthentik/elements/ak-locale-context/definitions";
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
+import { LOCALES } from "#elements/ak-locale-context/definitions";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
 
 import {
     PromptChallenge,

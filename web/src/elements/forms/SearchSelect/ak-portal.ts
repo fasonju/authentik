@@ -1,4 +1,4 @@
-import { randomId } from "@goauthentik/elements/utils/randomId";
+import { randomId } from "#elements/utils/randomId";
 
 import { autoUpdate, computePosition, flip, hide } from "@floating-ui/dom";
 

@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { bound } from "@goauthentik/elements/decorators/bound";
+import { AKElement } from "#elements/Base";
+import { bound } from "#elements/decorators/bound";
 
 import { ContextProvider } from "@lit/context";
 import { html, nothing } from "lit";

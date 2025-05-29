@@ -1,4 +1,4 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
 import { AutoSubmitChallengeResponseRequest, AutosubmitChallenge } from "@goauthentik/api";
 

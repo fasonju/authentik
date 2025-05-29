@@ -1,18 +1,18 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/admin-settings/AdminSettingsForm";
+import "#elements/CodeMirror";
+import "#elements/EmptyState";
+import "#elements/Tabs";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/ModalForm";
+import "#components/ak-page-header";
+import "#components/events/ObjectChangelog";
+import "#admin/admin-settings/AdminSettingsForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { AdminSettingsForm } from "@goauthentik/admin/admin-settings/AdminSettingsForm";
+import { AdminSettingsForm } from "#admin/admin-settings/AdminSettingsForm";
 
 import { AdminApi, Settings } from "@goauthentik/api";
 

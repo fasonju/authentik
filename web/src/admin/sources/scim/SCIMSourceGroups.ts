@@ -1,6 +1,6 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { SCIMSourceGroup, SourcesApi } from "@goauthentik/api";
 

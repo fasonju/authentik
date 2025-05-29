@@ -1,19 +1,19 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/admin/sources/SourceWizard";
-import "@goauthentik/admin/sources/kerberos/KerberosSourceForm";
-import "@goauthentik/admin/sources/ldap/LDAPSourceForm";
-import "@goauthentik/admin/sources/oauth/OAuthSourceForm";
-import "@goauthentik/admin/sources/plex/PlexSourceForm";
-import "@goauthentik/admin/sources/saml/SAMLSourceForm";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#admin/sources/SourceWizard";
+import "#admin/sources/kerberos/KerberosSourceForm";
+import "#admin/sources/ldap/LDAPSourceForm";
+import "#admin/sources/oauth/OAuthSourceForm";
+import "#admin/sources/plex/PlexSourceForm";
+import "#admin/sources/saml/SAMLSourceForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PFColor } from "@goauthentik/elements/Label";
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PFColor } from "#elements/Label";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import { Source, SourcesApi } from "@goauthentik/api";
 

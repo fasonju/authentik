@@ -1,8 +1,8 @@
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { renderForm } from "@goauthentik/admin/providers/oauth2/OAuth2ProviderFormForm";
+import { renderForm } from "#admin/providers/oauth2/OAuth2ProviderFormForm";
 
 import {
     type OAuth2Provider,

@@ -1,13 +1,13 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 import "./ak-library-impl.js";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { rootInterface } from "@goauthentik/common/theme";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { rootInterface } from "#common/theme";
+import { me } from "#common/users";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import type { UserInterface } from "@goauthentik/user/index.entrypoint";
+import type { UserInterface } from "#user/index.entrypoint";
 
 import { Application, CoreApi } from "@goauthentik/api";
 

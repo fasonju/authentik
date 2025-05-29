@@ -1,19 +1,19 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/ak-mdx/ak-mdx";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/RelatedApplicationButton";
-import "@goauthentik/admin/providers/oauth2/OAuth2ProviderForm";
+import "#elements/CodeMirror";
+import "#elements/EmptyState";
+import "#elements/Tabs";
+import "#elements/ak-mdx/ak-mdx";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/RelatedApplicationButton";
+import "#admin/providers/oauth2/OAuth2ProviderForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import renderDescriptionList from "@goauthentik/components/DescriptionList";
+import renderDescriptionList from "#components/DescriptionList";
 
 import {
     ClientTypeEnum,

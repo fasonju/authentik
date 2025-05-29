@@ -1,14 +1,14 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/providers/rac/EndpointForm";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/providers/rac/EndpointForm";
+import "#admin/rbac/ObjectPermissionModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import {
     Endpoint,

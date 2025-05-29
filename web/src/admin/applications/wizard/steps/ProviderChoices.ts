@@ -1,4 +1,4 @@
-import "@goauthentik/admin/common/ak-license-notice";
+import "#admin/common/ak-license-notice";
 
 import type { TypeCreate } from "@goauthentik/api";
 

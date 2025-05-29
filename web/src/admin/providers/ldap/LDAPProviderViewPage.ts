@@ -1,17 +1,17 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/RelatedApplicationButton";
-import "@goauthentik/admin/providers/ldap/LDAPProviderForm";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/CodeMirror";
+import "#elements/Tabs";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/RelatedApplicationButton";
+import "#admin/providers/ldap/LDAPProviderForm";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { me } from "#common/users";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     LDAPProvider,

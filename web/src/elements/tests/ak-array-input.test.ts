@@ -1,6 +1,6 @@
-import "@goauthentik/admin/admin-settings/AdminSettingsFooterLinks";
+import "#admin/admin-settings/AdminSettingsFooterLinks";
 
-import { render } from "@goauthentik/elements/tests/utils";
+import { render } from "#elements/tests/utils";
 
 import { FooterLink } from "@goauthentik/api";
 

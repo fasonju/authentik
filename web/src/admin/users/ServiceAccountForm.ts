@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { dateTimeLocal } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { dateTimeLocal } from "#common/temporal";
 
-import { Form } from "@goauthentik/elements/forms/Form";
-import { ModalForm } from "@goauthentik/elements/forms/ModalForm";
+import { Form } from "#elements/forms/Form";
+import { ModalForm } from "#elements/forms/ModalForm";
 
 import {
     CoreApi,

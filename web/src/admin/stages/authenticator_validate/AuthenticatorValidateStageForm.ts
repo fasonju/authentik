@@ -1,15 +1,15 @@
-import "@goauthentik/elements/Alert";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
+import "#elements/Alert";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/utils/TimeDeltaHelp";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
-import { deviceTypeRestrictionPair } from "@goauthentik/admin/stages/authenticator_webauthn/utils";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
+import { deviceTypeRestrictionPair } from "#admin/stages/authenticator_webauthn/utils";
 
 import {
     AuthenticatorValidateStage,

@@ -1,7 +1,7 @@
-import { AndNext } from "@goauthentik/common/api/config";
-import { globalAK } from "@goauthentik/common/global";
+import { AndNext } from "#common/api/config";
+import { globalAK } from "#common/global";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, html } from "lit";

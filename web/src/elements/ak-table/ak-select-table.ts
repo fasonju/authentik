@@ -1,4 +1,4 @@
-import { bound } from "@goauthentik/elements/decorators/bound";
+import { bound } from "#elements/decorators/bound";
 
 import { msg } from "@lit/localize";
 import { PropertyValues, TemplateResult, html } from "lit";

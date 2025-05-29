@@ -1,20 +1,20 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/CodeMirror";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
+import { CodeMirrorMode } from "#elements/CodeMirror";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 import {
     propertyMappingsProvider,
     propertyMappingsSelector,
-} from "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderFormHelpers";
+} from "#admin/providers/google_workspace/GoogleWorkspaceProviderFormHelpers";
 
 import {
     CoreApi,

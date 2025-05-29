@@ -1,24 +1,24 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/forms/ConfirmationForm";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/admin/policies/PolicyTestForm";
-import "@goauthentik/admin/policies/PolicyWizard";
-import "@goauthentik/admin/policies/dummy/DummyPolicyForm";
-import "@goauthentik/admin/policies/event_matcher/EventMatcherPolicyForm";
-import "@goauthentik/admin/policies/expiry/ExpiryPolicyForm";
-import "@goauthentik/admin/policies/expression/ExpressionPolicyForm";
-import "@goauthentik/admin/policies/password/PasswordPolicyForm";
-import "@goauthentik/admin/policies/reputation/ReputationPolicyForm";
-import "@goauthentik/admin/policies/unique_password/UniquePasswordPolicyForm";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "#elements/forms/ConfirmationForm";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#admin/policies/PolicyTestForm";
+import "#admin/policies/PolicyWizard";
+import "#admin/policies/dummy/DummyPolicyForm";
+import "#admin/policies/event_matcher/EventMatcherPolicyForm";
+import "#admin/policies/expiry/ExpiryPolicyForm";
+import "#admin/policies/expression/ExpressionPolicyForm";
+import "#admin/policies/password/PasswordPolicyForm";
+import "#admin/policies/reputation/ReputationPolicyForm";
+import "#admin/policies/unique_password/UniquePasswordPolicyForm";
+import "#admin/rbac/ObjectPermissionModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PFColor } from "@goauthentik/elements/Label";
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PFColor } from "#elements/Label";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import { PoliciesApi, Policy } from "@goauthentik/api";
 

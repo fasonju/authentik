@@ -1,17 +1,17 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/components/ak-number-input";
-import "@goauthentik/components/ak-radio-input";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#components/ak-number-input";
+import "#components/ak-radio-input";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
 
-import { camelToSnake } from "@goauthentik/common/utils";
+import { camelToSnake } from "#common/utils";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { KeyUnknown, serializeForm } from "@goauthentik/elements/forms/Form";
-import { HorizontalFormElement } from "@goauthentik/elements/forms/HorizontalFormElement";
+import { AKElement } from "#elements/Base";
+import { KeyUnknown, serializeForm } from "#elements/forms/Form";
+import { HorizontalFormElement } from "#elements/forms/HorizontalFormElement";
 
-import { styles as AwadStyles } from "@goauthentik/admin/applications/wizard/ApplicationWizardFormStepStyles";
+import { styles as AwadStyles } from "#admin/applications/wizard/ApplicationWizardFormStepStyles";
 
 import { property, query } from "lit/decorators.js";
 

@@ -1,12 +1,12 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/components/ak-radio-input";
+import "#elements/CodeMirror";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#components/ak-radio-input";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { AuthModeEnum, Endpoint, ProtocolEnum, RacApi } from "@goauthentik/api";
 

@@ -1,12 +1,12 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { dateTimeLocal } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { dateTimeLocal } from "#common/temporal";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { CoreApi, CoreUsersListRequest, IntentEnum, Token, User } from "@goauthentik/api";
 

@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "../ak-dual-select.js";
 
 import { Pagination } from "@goauthentik/api";

@@ -1,9 +1,9 @@
-import "@goauthentik/elements/Alert";
+import "#elements/Alert";
 
-import { $PFBase } from "@goauthentik/common/theme";
+import { $PFBase } from "#common/theme";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
+import { AKElement } from "#elements/Base";
+import { WithLicenseSummary } from "#elements/mixins/license";
 
 import { msg } from "@lit/localize";
 import { html, nothing } from "lit";

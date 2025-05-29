@@ -1,19 +1,19 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/CodeMirror";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-crypto-certificate-search";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { DefaultBrand } from "@goauthentik/common/ui/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { DefaultBrand } from "#common/ui/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { ModelForm } from "#elements/forms/ModelForm";
 
-import { certificateProvider, certificateSelector } from "@goauthentik/admin/brands/Certificates";
+import { certificateProvider, certificateSelector } from "#admin/brands/Certificates";
 
 import {
     Application,

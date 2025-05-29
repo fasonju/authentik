@@ -1,17 +1,17 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/AppIcon";
-import "@goauthentik/elements/ak-mdx/ak-mdx";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/applications/ApplicationForm";
+import "#elements/AppIcon";
+import "#elements/ak-mdx/ak-mdx";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#admin/applications/ApplicationForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
-import { getURLParam } from "@goauthentik/elements/router/RouteMatch";
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { WithBrandConfig } from "#elements/mixins/branding";
+import { getURLParam } from "#elements/router/RouteMatch";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import { Application, CoreApi, PoliciesApi } from "@goauthentik/api";
 

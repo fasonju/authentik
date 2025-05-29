@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/ConfirmationForm";
+import "#elements/forms/ConfirmationForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKChart } from "@goauthentik/elements/charts/Chart";
+import { AKChart } from "#elements/charts/Chart";
 
-import { SummarizedSyncStatus } from "@goauthentik/admin/admin-overview/charts/SyncStatusChart";
+import { SummarizedSyncStatus } from "#admin/admin-overview/charts/SyncStatusChart";
 
 import { OutpostsApi } from "@goauthentik/api";
 

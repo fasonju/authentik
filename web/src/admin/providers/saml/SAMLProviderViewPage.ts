@@ -1,23 +1,23 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/RelatedApplicationButton";
-import "@goauthentik/admin/providers/saml/SAMLProviderForm";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/CodeMirror";
+import "#elements/EmptyState";
+import "#elements/Tabs";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/RelatedApplicationButton";
+import "#admin/providers/saml/SAMLProviderForm";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { MessageLevel } from "@goauthentik/common/messages";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { MessageLevel } from "#common/messages";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { AKElement } from "#elements/Base";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { showMessage } from "#elements/messages/MessageContainer";
 
-import renderDescriptionList from "@goauthentik/components/DescriptionList";
+import renderDescriptionList from "#components/DescriptionList";
 
 import {
     CertificateKeyPair,

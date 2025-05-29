@@ -1,4 +1,4 @@
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/SearchSelect/ak-search-select";
 
 import type { Flow } from "@goauthentik/api";
 

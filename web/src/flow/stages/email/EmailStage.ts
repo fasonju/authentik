@@ -1,4 +1,4 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
 import { EmailChallenge, EmailChallengeResponseRequest } from "@goauthentik/api";
 

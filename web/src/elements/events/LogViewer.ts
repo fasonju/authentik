@@ -1,9 +1,9 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/components/ak-status-label";
+import "#elements/EmptyState";
+import "#components/ak-status-label";
 
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { LogEvent, LogLevelEnum } from "@goauthentik/api";
 

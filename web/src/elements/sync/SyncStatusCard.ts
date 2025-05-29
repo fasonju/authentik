@@ -1,13 +1,13 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/events/LogViewer";
-import "@goauthentik/components/ak-status-label";
+import "#elements/EmptyState";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/events/LogViewer";
+import "#components/ak-status-label";
 
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { EVENT_REFRESH } from "#common/constants";
+import { formatElapsedTime } from "#common/temporal";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { AKElement } from "#elements/Base";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { SyncStatus, SystemTask, SystemTaskStatusEnum } from "@goauthentik/api";
 

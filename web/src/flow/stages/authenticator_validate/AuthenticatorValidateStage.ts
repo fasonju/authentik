@@ -1,8 +1,8 @@
-import "@goauthentik/flow/stages/authenticator_validate/AuthenticatorValidateStageCode";
-import "@goauthentik/flow/stages/authenticator_validate/AuthenticatorValidateStageDuo";
-import "@goauthentik/flow/stages/authenticator_validate/AuthenticatorValidateStageWebAuthn";
+import "#flow/stages/authenticator_validate/AuthenticatorValidateStageCode";
+import "#flow/stages/authenticator_validate/AuthenticatorValidateStageDuo";
+import "#flow/stages/authenticator_validate/AuthenticatorValidateStageWebAuthn";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
 import {
     AuthenticatorValidationChallenge,

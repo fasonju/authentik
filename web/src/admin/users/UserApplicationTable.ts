@@ -1,11 +1,11 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/AppIcon";
+import "#elements/AppIcon";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
-import { applicationListStyle } from "@goauthentik/admin/applications/ApplicationListPage";
+import { applicationListStyle } from "#admin/applications/ApplicationListPage";
 
 import { Application, CoreApi, User } from "@goauthentik/api";
 

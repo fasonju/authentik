@@ -1,13 +1,9 @@
 /**
  * @file Theme utilities.
  */
-import AKBase from "@goauthentik/common/styles/authentik.css";
-import AKBaseDark from "@goauthentik/common/styles/theme-dark.css";
-import {
-    type StyleRoot,
-    createStyleSheetUnsafe,
-    setAdoptedStyleSheets,
-} from "@goauthentik/common/stylesheets";
+import AKBase from "#common/styles/authentik.css";
+import AKBaseDark from "#common/styles/theme-dark.css";
+import { type StyleRoot, createStyleSheetUnsafe, setAdoptedStyleSheets } from "#common/stylesheets";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

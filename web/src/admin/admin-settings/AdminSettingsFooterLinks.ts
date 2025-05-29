@@ -1,5 +1,5 @@
-import { AkControlElement } from "@goauthentik/elements/AkControlElement";
-import { type Spread } from "@goauthentik/elements/types";
+import { AkControlElement } from "#elements/AkControlElement";
+import { type Spread } from "#elements/types";
 
 import { FooterLink } from "@goauthentik/api";
 

@@ -1,9 +1,9 @@
-import "@goauthentik/elements/Spinner";
+import "#elements/Spinner";
 
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { formatElapsedTime } from "#common/temporal";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { PFColor } from "@goauthentik/elements/Label";
+import { AKElement } from "#elements/Base";
+import { PFColor } from "#elements/Label";
 
 import { OutpostHealth } from "@goauthentik/api";
 

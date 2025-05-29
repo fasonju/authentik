@@ -1,18 +1,18 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/sync/SyncStatusCard";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
-import "@goauthentik/admin/sources/ldap/LDAPSourceConnectivity";
-import "@goauthentik/admin/sources/ldap/LDAPSourceForm";
+import "#elements/CodeMirror";
+import "#elements/Tabs";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/ModalForm";
+import "#elements/sync/SyncStatusCard";
+import "#components/events/ObjectChangelog";
+import "#admin/rbac/ObjectPermissionsPage";
+import "#admin/sources/ldap/LDAPSourceConnectivity";
+import "#admin/sources/ldap/LDAPSourceForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     LDAPSource,

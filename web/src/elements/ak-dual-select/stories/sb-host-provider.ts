@@ -1,4 +1,4 @@
-import { globalVariables } from "@goauthentik/elements/ak-dual-select/components/styles";
+import { globalVariables } from "#elements/ak-dual-select/components/styles";
 
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";

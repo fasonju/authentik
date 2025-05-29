@@ -1,12 +1,12 @@
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
 
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { PFSize } from "@goauthentik/common/enums";
-import { MessageLevel } from "@goauthentik/common/messages";
+import { EVENT_REFRESH } from "#common/constants";
+import { PFSize } from "#common/enums";
+import { MessageLevel } from "#common/messages";
 
-import { ModalButton } from "@goauthentik/elements/buttons/ModalButton";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { ModalButton } from "#elements/buttons/ModalButton";
+import { showMessage } from "#elements/messages/MessageContainer";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { UsedBy, UsedByActionEnum } from "@goauthentik/api";
 

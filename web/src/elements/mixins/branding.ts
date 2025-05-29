@@ -1,6 +1,6 @@
-import { DefaultBrand } from "@goauthentik/common/ui/config";
+import { DefaultBrand } from "#common/ui/config";
 
-import { createMixin } from "@goauthentik/elements/types";
+import { createMixin } from "#elements/types";
 
 import type { CurrentBrand, FooterLink } from "@goauthentik/api";
 

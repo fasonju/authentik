@@ -1,4 +1,4 @@
-import { formatSlug } from "@goauthentik/elements/router/utils";
+import { formatSlug } from "#elements/router/utils";
 
 import { html } from "lit";
 import { customElement, property, query } from "lit/decorators.js";

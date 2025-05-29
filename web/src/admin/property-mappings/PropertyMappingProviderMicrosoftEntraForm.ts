@@ -1,9 +1,9 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BasePropertyMappingForm } from "@goauthentik/admin/property-mappings/BasePropertyMappingForm";
+import { BasePropertyMappingForm } from "#admin/property-mappings/BasePropertyMappingForm";
 
 import { MicrosoftEntraProviderMapping, PropertymappingsApi } from "@goauthentik/api";
 

@@ -1,12 +1,7 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { bound } from "@goauthentik/elements/decorators/bound";
-import type {
-    GroupedOptions,
-    SelectGroup,
-    SelectOption,
-    SelectOptions,
-} from "@goauthentik/elements/types";
-import { randomId } from "@goauthentik/elements/utils/randomId";
+import { AKElement } from "#elements/Base";
+import { bound } from "#elements/decorators/bound";
+import type { GroupedOptions, SelectGroup, SelectOption, SelectOptions } from "#elements/types";
+import { randomId } from "#elements/utils/randomId";
 
 import { match } from "ts-pattern";
 

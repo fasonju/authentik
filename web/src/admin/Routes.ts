@@ -1,6 +1,6 @@
-import "@goauthentik/admin/admin-overview/AdminOverviewPage";
+import "#admin/admin-overview/AdminOverviewPage";
 
-import { ID_REGEX, Route, SLUG_REGEX, UUID_REGEX } from "@goauthentik/elements/router/Route";
+import { ID_REGEX, Route, SLUG_REGEX, UUID_REGEX } from "#elements/router/Route";
 
 import { html } from "lit";
 

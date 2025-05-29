@@ -1,19 +1,19 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#elements/utils/TimeDeltaHelp";
+import "#components/ak-text-input";
+import "#admin/common/ak-crypto-certificate-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 import {
     oauth2ProvidersProvider,
     oauth2ProvidersSelector,
-} from "@goauthentik/admin/providers/oauth2/OAuth2ProvidersProvider";
+} from "#admin/providers/oauth2/OAuth2ProvidersProvider";
 
 import { ProvidersApi, SSFProvider } from "@goauthentik/api";
 

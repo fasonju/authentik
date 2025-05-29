@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "../AdminSettingsFooterLinks.js";
 
 import { Meta, StoryObj, WebComponentsRenderer } from "@storybook/web-components";

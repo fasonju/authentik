@@ -1,4 +1,4 @@
-import { DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
+import { DualSelectPair } from "#elements/ak-dual-select/types";
 
 import { WebAuthnDeviceType } from "@goauthentik/api";
 

@@ -1,14 +1,14 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/admin/flows/StageBindingForm";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/stages/StageWizard";
+import "#elements/Tabs";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#admin/flows/StageBindingForm";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/stages/StageWizard";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import {
     FlowStageBinding,

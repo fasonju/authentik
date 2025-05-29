@@ -1,6 +1,6 @@
-import { LayoutType } from "@goauthentik/common/ui/config";
+import { LayoutType } from "#common/ui/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import type { Application } from "@goauthentik/api";
 

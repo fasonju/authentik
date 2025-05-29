@@ -1,14 +1,14 @@
-import "@goauthentik/elements/Divider";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/Divider";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { MessageLevel } from "@goauthentik/common/messages";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { MessageLevel } from "#common/messages";
 
-import { ModalForm } from "@goauthentik/elements/forms/ModalForm";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { ModalForm } from "#elements/forms/ModalForm";
+import { ModelForm } from "#elements/forms/ModelForm";
+import { showMessage } from "#elements/messages/MessageContainer";
 
 import {
     AuthenticatorDuoStage,

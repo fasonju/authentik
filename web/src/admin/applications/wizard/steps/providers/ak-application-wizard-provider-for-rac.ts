@@ -1,14 +1,14 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/CodeMirror";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#components/ak-text-input";
+import "#admin/applications/wizard/ak-wizard-title";
+import "#admin/common/ak-crypto-certificate-search";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
 import {
     propertyMappingsProvider,
     propertyMappingsSelector,
-} from "@goauthentik/admin/providers/rac/RACProviderFormHelpers";
+} from "#admin/providers/rac/RACProviderFormHelpers";
 
 import { FlowsInstancesListDesignationEnum, type RACProvider } from "@goauthentik/api";
 

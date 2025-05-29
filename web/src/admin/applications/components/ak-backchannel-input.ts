@@ -1,8 +1,8 @@
-import "@goauthentik/elements/chips/Chip";
-import "@goauthentik/elements/chips/ChipGroup";
-import "@goauthentik/admin/applications/ProviderSelectModal";
+import "#elements/chips/Chip";
+import "#elements/chips/ChipGroup";
+import "#admin/applications/ProviderSelectModal";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { Provider } from "@goauthentik/api";
 

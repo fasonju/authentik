@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-flow-search/ak-branded-flow-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-flow-search/ak-branded-flow-search";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { ascii_letters, digits, randomString } from "@goauthentik/common/utils";
+import { ascii_letters, digits, randomString } from "#common/utils";
 
 import {
     CurrentBrand,

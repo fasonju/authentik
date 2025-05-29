@@ -1,7 +1,7 @@
 import "./ak-dual-select.js";
 
-import { AkControlElement } from "@goauthentik/elements/AkControlElement";
-import { CustomListenerElement } from "@goauthentik/elements/utils/eventEmitter";
+import { AkControlElement } from "#elements/AkControlElement";
+import { CustomListenerElement } from "#elements/utils/eventEmitter";
 
 import type { Pagination } from "@goauthentik/api";
 

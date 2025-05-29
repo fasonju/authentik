@@ -1,11 +1,11 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/components/ak-number-input";
-import "@goauthentik/components/ak-switch-input";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#components/ak-number-input";
+import "#components/ak-switch-input";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import { CaptchaStage, CaptchaStageRequest, StagesApi } from "@goauthentik/api";
 

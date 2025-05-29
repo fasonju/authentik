@@ -1,19 +1,19 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/Spinner";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/cards/AggregateCard";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/enterprise/EnterpriseLicenseForm";
-import "@goauthentik/admin/enterprise/EnterpriseStatusCard";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "#elements/Spinner";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/cards/AggregateCard";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#admin/enterprise/EnterpriseLicenseForm";
+import "#admin/enterprise/EnterpriseStatusCard";
+import "#admin/rbac/ObjectPermissionModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PFColor } from "@goauthentik/elements/Label";
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PFColor } from "#elements/Label";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import {
     EnterpriseApi,

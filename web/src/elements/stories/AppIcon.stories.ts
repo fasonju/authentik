@@ -1,6 +1,6 @@
 import "../AppIcon.js";
 
-import { PFSize } from "@goauthentik/common/enums";
+import { PFSize } from "#common/enums";
 
 import type { Meta, StoryObj } from "@storybook/web-components";
 

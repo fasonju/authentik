@@ -1,6 +1,6 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKChart, RGBAColor } from "@goauthentik/elements/charts/Chart";
+import { AKChart, RGBAColor } from "#elements/charts/Chart";
 
 import { AdminApi, LoginMetrics } from "@goauthentik/api";
 

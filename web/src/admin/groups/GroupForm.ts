@@ -1,16 +1,16 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/chips/Chip";
-import "@goauthentik/elements/chips/ChipGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/groups/MemberSelectModal";
+import "#elements/CodeMirror";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/chips/Chip";
+import "#elements/chips/ChipGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/groups/MemberSelectModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { DataProvision, DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { DataProvision, DualSelectPair } from "#elements/ak-dual-select/types";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { CoreApi, CoreGroupsListRequest, Group, RbacApi, Role } from "@goauthentik/api";
 

@@ -1,8 +1,8 @@
 import "../ak-array-input.js";
-import "@goauthentik/elements/messages/MessageContainer";
-import "@goauthentik/admin/admin-settings/AdminSettingsFooterLinks";
+import "#elements/messages/MessageContainer";
+import "#admin/admin-settings/AdminSettingsFooterLinks";
 
-import { FooterLinkInput } from "@goauthentik/admin/admin-settings/AdminSettingsFooterLinks";
+import { FooterLinkInput } from "#admin/admin-settings/AdminSettingsFooterLinks";
 
 import { FooterLink } from "@goauthentik/api";
 

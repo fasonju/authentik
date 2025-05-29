@@ -1,20 +1,20 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/outposts/OutpostDeploymentModal";
-import "@goauthentik/admin/outposts/OutpostDeploymentModal";
-import "@goauthentik/admin/outposts/OutpostForm";
-import "@goauthentik/admin/outposts/OutpostHealth";
-import "@goauthentik/admin/outposts/OutpostHealthSimple";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#admin/outposts/OutpostDeploymentModal";
+import "#admin/outposts/OutpostDeploymentModal";
+import "#admin/outposts/OutpostForm";
+import "#admin/outposts/OutpostHealth";
+import "#admin/outposts/OutpostHealthSimple";
+import "#admin/rbac/ObjectPermissionModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
 
-import { PFColor } from "@goauthentik/elements/Label";
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PFColor } from "#elements/Label";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import {
     Outpost,

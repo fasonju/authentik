@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { RenderFlowOption } from "@goauthentik/admin/flows/utils";
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { RenderFlowOption } from "#admin/flows/utils";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import {
     Flow,

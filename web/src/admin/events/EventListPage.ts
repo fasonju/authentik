@@ -1,17 +1,17 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/components/ak-event-info";
-import "@goauthentik/admin/events/EventVolumeChart";
+import "#components/ak-event-info";
+import "#admin/events/EventVolumeChart";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EventWithContext } from "@goauthentik/common/events";
-import { actionToLabel } from "@goauthentik/common/labels";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EventWithContext } from "#common/events";
+import { actionToLabel } from "#common/labels";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
-import { SlottedTemplateResult } from "@goauthentik/elements/types";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
+import { SlottedTemplateResult } from "#elements/types";
 
-import { EventGeo, EventUser } from "@goauthentik/admin/events/utils";
+import { EventGeo, EventUser } from "#admin/events/utils";
 
 import { Event, EventsApi } from "@goauthentik/api";
 

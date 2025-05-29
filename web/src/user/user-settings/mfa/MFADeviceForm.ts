@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { SentryIgnoredError } from "@goauthentik/common/sentry/index";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { SentryIgnoredError } from "#common/sentry/index";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { AuthenticatorsApi, Device } from "@goauthentik/api";
 

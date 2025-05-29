@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/sync/SyncObjectForm";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/sync/SyncObjectForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import {
     MicrosoftEntraProviderGroup,

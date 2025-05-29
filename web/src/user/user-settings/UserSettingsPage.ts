@@ -1,19 +1,19 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/user/SessionList";
-import "@goauthentik/elements/user/UserConsentList";
-import "@goauthentik/elements/user/sources/SourceSettings";
-import "@goauthentik/user/user-settings/details/UserPassword";
-import "@goauthentik/user/user-settings/details/UserSettingsFlowExecutor";
-import "@goauthentik/user/user-settings/mfa/MFADevicesPage";
-import "@goauthentik/user/user-settings/tokens/UserTokenList";
+import "#elements/Tabs";
+import "#elements/user/SessionList";
+import "#elements/user/UserConsentList";
+import "#elements/user/sources/SourceSettings";
+import "#user/user-settings/details/UserPassword";
+import "#user/user-settings/details/UserSettingsFlowExecutor";
+import "#user/user-settings/mfa/MFADevicesPage";
+import "#user/user-settings/tokens/UserTokenList";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { rootInterface } from "@goauthentik/common/theme";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { rootInterface } from "#common/theme";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import type { UserInterface } from "@goauthentik/user/index.entrypoint";
+import type { UserInterface } from "#user/index.entrypoint";
 
 import { StagesApi, UserSetting } from "@goauthentik/api";
 

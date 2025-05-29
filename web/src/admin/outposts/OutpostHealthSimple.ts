@@ -1,11 +1,11 @@
-import "@goauthentik/elements/Spinner";
+import "#elements/Spinner";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { formatElapsedTime } from "#common/temporal";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { PFColor } from "@goauthentik/elements/Label";
+import { AKElement } from "#elements/Base";
+import { PFColor } from "#elements/Label";
 
 import { OutpostHealth, OutpostsApi } from "@goauthentik/api";
 

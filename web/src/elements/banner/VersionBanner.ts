@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { WithVersion } from "@goauthentik/elements/mixins/version";
+import { AKElement } from "#elements/Base";
+import { WithVersion } from "#elements/mixins/version";
 
 import { msg, str } from "@lit/localize";
 import { html, nothing } from "lit";

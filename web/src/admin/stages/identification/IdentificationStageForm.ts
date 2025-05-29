@@ -1,15 +1,15 @@
-import "@goauthentik/elements/ak-checkbox-group/ak-checkbox-group";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/ak-checkbox-group/ak-checkbox-group";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#components/ak-switch-input";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import {
     FlowsInstancesListDesignationEnum,

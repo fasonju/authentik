@@ -1,10 +1,10 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/forms/DeleteBulkForm";
+import "#elements/forms/DeleteBulkForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { ExtraRoleObjectPermission, ModelEnum, RbacApi } from "@goauthentik/api";
 

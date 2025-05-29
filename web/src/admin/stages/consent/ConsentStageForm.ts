@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/utils/TimeDeltaHelp";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import { ConsentStage, ConsentStageModeEnum, StagesApi } from "@goauthentik/api";
 

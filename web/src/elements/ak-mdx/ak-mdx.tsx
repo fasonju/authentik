@@ -1,17 +1,17 @@
-import { globalAK } from "@goauthentik/common/global";
+import { globalAK } from "#common/global";
 
-import "@goauthentik/elements/Alert";
+import "#elements/Alert";
 
-import OneDark from "@goauthentik/common/styles/one-dark.css";
+import OneDark from "#common/styles/one-dark.css";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { MDXModuleContext, fetchMDXModule } from "@goauthentik/elements/ak-mdx/MDXModuleContext";
-import { MDXAnchor } from "@goauthentik/elements/ak-mdx/components/MDXAnchor";
-import { MDXWrapper } from "@goauthentik/elements/ak-mdx/components/MDXWrapper";
-import { remarkAdmonition } from "@goauthentik/elements/ak-mdx/remark/remark-admonition";
-import { remarkHeadings } from "@goauthentik/elements/ak-mdx/remark/remark-headings";
-import { remarkLists } from "@goauthentik/elements/ak-mdx/remark/remark-lists";
-import { WithAuthentikConfig } from "@goauthentik/elements/mixins/config";
+import { AKElement } from "#elements/Base";
+import { MDXModuleContext, fetchMDXModule } from "#elements/ak-mdx/MDXModuleContext";
+import { MDXAnchor } from "#elements/ak-mdx/components/MDXAnchor";
+import { MDXWrapper } from "#elements/ak-mdx/components/MDXWrapper";
+import { remarkAdmonition } from "#elements/ak-mdx/remark/remark-admonition";
+import { remarkHeadings } from "#elements/ak-mdx/remark/remark-headings";
+import { remarkLists } from "#elements/ak-mdx/remark/remark-lists";
+import { WithAuthentikConfig } from "#elements/mixins/config";
 
 import { DistDirectoryName, StaticDirectoryName } from "#paths";
 

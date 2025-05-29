@@ -1,5 +1,5 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/flow/FormStatic";
+import "#elements/EmptyState";
+import "#flow/FormStatic";
 
 import { AccessDeniedChallenge, FlowChallengeResponseRequest } from "@goauthentik/api";
 

@@ -1,6 +1,6 @@
 import "../ak-search-select-view.js";
 
-import { render } from "@goauthentik/elements/tests/utils";
+import { render } from "#elements/tests/utils";
 
 import { $, browser, expect } from "@wdio/globals";
 import { slug } from "github-slugger";

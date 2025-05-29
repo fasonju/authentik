@@ -1,14 +1,10 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
-import { EVENT_REFRESH, EVENT_THEME_CHANGE } from "@goauthentik/common/constants";
-import {
-    APIError,
-    parseAPIResponseError,
-    pluckErrorDetail,
-} from "@goauthentik/common/errors/network";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { EVENT_REFRESH, EVENT_THEME_CHANGE } from "#common/constants";
+import { APIError, parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
+import { formatElapsedTime } from "#common/temporal";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     ArcElement,

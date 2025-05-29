@@ -1,18 +1,18 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/ConfirmationForm";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/flows/FlowForm";
-import "@goauthentik/admin/flows/FlowImportForm";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/ConfirmationForm";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#admin/flows/FlowForm";
+import "#admin/flows/FlowImportForm";
 
-import { AndNext, DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { AndNext, DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
-import { DesignationToLabel } from "@goauthentik/admin/flows/utils";
+import { DesignationToLabel } from "#admin/flows/utils";
 
 import { Flow, FlowsApi } from "@goauthentik/api";
 

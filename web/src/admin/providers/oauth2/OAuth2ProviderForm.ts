@@ -1,8 +1,8 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
+import { DualSelectPair } from "#elements/ak-dual-select/types";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 
 import { ClientTypeEnum, OAuth2Provider, ProvidersApi } from "@goauthentik/api";
 

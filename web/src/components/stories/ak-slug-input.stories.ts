@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "../ak-slug-input.js";
 
 import { Meta } from "@storybook/web-components";

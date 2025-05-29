@@ -1,34 +1,31 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/Alert";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/components/ak-file-input";
-import "@goauthentik/components/ak-radio-input";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/components/ak-textarea-input";
-import "@goauthentik/components/ak-file-input";
-import "@goauthentik/components/ak-radio-input";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/components/ak-textarea-input";
-import "@goauthentik/admin/applications/ProviderSelectModal";
+import "#elements/Alert";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#components/ak-file-input";
+import "#components/ak-radio-input";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
+import "#components/ak-textarea-input";
+import "#components/ak-file-input";
+import "#components/ak-radio-input";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
+import "#components/ak-textarea-input";
+import "#admin/applications/ProviderSelectModal";
 import "./components/ak-backchannel-input";
 import "./components/ak-provider-search-input";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
+import { ModelForm } from "#elements/forms/ModelForm";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
 
-import { iconHelperText } from "@goauthentik/admin/helperText";
+import { iconHelperText } from "#admin/helperText";
 
 import { Application, CoreApi, Provider } from "@goauthentik/api";
 

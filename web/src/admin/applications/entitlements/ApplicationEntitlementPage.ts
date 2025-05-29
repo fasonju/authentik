@@ -1,18 +1,18 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/admin/applications/entitlements/ApplicationEntitlementForm";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
+import "#elements/Tabs";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#components/ak-status-label";
+import "#admin/applications/entitlements/ApplicationEntitlementForm";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/rbac/ObjectPermissionModal";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
-import { PolicyBindingCheckTarget } from "@goauthentik/admin/policies/utils";
+import { PolicyBindingCheckTarget } from "#admin/policies/utils";
 
 import {
     ApplicationEntitlement,

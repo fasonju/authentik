@@ -1,8 +1,8 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
 
 import { DummyStage, StagesApi } from "@goauthentik/api";
 

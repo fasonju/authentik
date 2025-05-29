@@ -1,14 +1,10 @@
-import "@goauthentik/elements/Expand";
+import "#elements/Expand";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_FLOW_ADVANCE, EVENT_FLOW_INSPECTOR_TOGGLE } from "@goauthentik/common/constants";
-import {
-    APIError,
-    parseAPIResponseError,
-    pluckErrorDetail,
-} from "@goauthentik/common/errors/network";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_FLOW_ADVANCE, EVENT_FLOW_INSPECTOR_TOGGLE } from "#common/constants";
+import { APIError, parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { FlowInspection, FlowsApi, Stage } from "@goauthentik/api";
 

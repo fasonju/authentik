@@ -1,6 +1,6 @@
-import "@goauthentik/elements/cards/AggregateCard";
+import "#elements/cards/AggregateCard";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { msg } from "@lit/localize";
 import { html } from "lit";

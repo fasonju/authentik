@@ -1,6 +1,6 @@
 import "../EmptyState.js";
 
-import { render } from "@goauthentik/elements/tests/utils";
+import { render } from "#elements/tests/utils";
 
 import { $, expect } from "@wdio/globals";
 

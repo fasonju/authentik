@@ -1,17 +1,17 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/RelatedApplicationButton";
-import "@goauthentik/admin/providers/ssf/SSFProviderFormPage";
-import "@goauthentik/admin/providers/ssf/StreamTable";
+import "#elements/CodeMirror";
+import "#elements/EmptyState";
+import "#elements/Tabs";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/RelatedApplicationButton";
+import "#admin/providers/ssf/SSFProviderFormPage";
+import "#admin/providers/ssf/StreamTable";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     ProvidersApi,

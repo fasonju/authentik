@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { PFColor } from "@goauthentik/elements/Label";
+import { AKElement } from "#elements/Base";
+import { PFColor } from "#elements/Label";
 
 import { LicenseForecast, LicenseSummary, LicenseSummaryStatusEnum } from "@goauthentik/api";
 

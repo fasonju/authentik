@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "../components/ak-dual-select-controls.js";
 
 import { Meta, StoryObj } from "@storybook/web-components";

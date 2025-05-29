@@ -1,6 +1,6 @@
-import { PFSize } from "@goauthentik/common/enums";
+import { PFSize } from "#common/enums";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { P, match } from "ts-pattern";
 

@@ -1,9 +1,9 @@
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { WithBrandConfig } from "#elements/mixins/branding";
 
-import { ValidationRecord } from "@goauthentik/admin/applications/wizard/types";
-import { renderForm } from "@goauthentik/admin/providers/ldap/LDAPProviderFormForm";
+import { ValidationRecord } from "#admin/applications/wizard/types";
+import { renderForm } from "#admin/providers/ldap/LDAPProviderFormForm";
 
 import type { LDAPProvider } from "@goauthentik/api";
 

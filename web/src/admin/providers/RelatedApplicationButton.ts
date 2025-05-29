@@ -1,8 +1,8 @@
-import "@goauthentik/elements/Spinner";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/applications/ApplicationForm";
+import "#elements/Spinner";
+import "#elements/forms/ModalForm";
+import "#admin/applications/ApplicationForm";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { Provider } from "@goauthentik/api";
 

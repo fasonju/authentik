@@ -1,18 +1,18 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/sync/SyncStatusCard";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderForm";
-import "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderGroupList";
-import "@goauthentik/admin/providers/google_workspace/GoogleWorkspaceProviderUserList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/Tabs";
+import "#elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/ModalButton";
+import "#elements/sync/SyncStatusCard";
+import "#components/ak-status-label";
+import "#components/events/ObjectChangelog";
+import "#admin/providers/google_workspace/GoogleWorkspaceProviderForm";
+import "#admin/providers/google_workspace/GoogleWorkspaceProviderGroupList";
+import "#admin/providers/google_workspace/GoogleWorkspaceProviderUserList";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     GoogleWorkspaceProvider,

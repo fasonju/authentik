@@ -1,8 +1,8 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { WithBrandConfig } from "#elements/mixins/branding";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 
 import { ProvidersApi, RadiusProvider } from "@goauthentik/api";
 

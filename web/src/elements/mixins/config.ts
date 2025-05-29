@@ -1,4 +1,4 @@
-import { createMixin } from "@goauthentik/elements/types";
+import { createMixin } from "#elements/types";
 
 import type { Config } from "@goauthentik/api";
 

@@ -1,11 +1,11 @@
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
 
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { parseAPIResponseError, pluckErrorDetail } from "@goauthentik/common/errors/network";
-import { MessageLevel } from "@goauthentik/common/messages";
+import { EVENT_REFRESH } from "#common/constants";
+import { parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
+import { MessageLevel } from "#common/messages";
 
-import { ModalButton } from "@goauthentik/elements/buttons/ModalButton";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { ModalButton } from "#elements/buttons/ModalButton";
+import { showMessage } from "#elements/messages/MessageContainer";
 
 import { UsedBy, UsedByActionEnum } from "@goauthentik/api";
 

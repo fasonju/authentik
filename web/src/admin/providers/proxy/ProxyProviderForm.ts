@@ -1,9 +1,9 @@
-import "@goauthentik/admin/common/ak-crypto-certificate-search";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#admin/common/ak-crypto-certificate-search";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BaseProviderForm } from "@goauthentik/admin/providers/BaseProviderForm";
+import { BaseProviderForm } from "#admin/providers/BaseProviderForm";
 
 import { ProvidersApi, ProxyMode, ProxyProvider } from "@goauthentik/api";
 

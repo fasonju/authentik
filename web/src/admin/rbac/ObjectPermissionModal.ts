@@ -1,8 +1,8 @@
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/forms/ModalForm";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { AKElement } from "#elements/Base";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { RbacPermissionsAssignedByUsersListModelEnum } from "@goauthentik/api";
 

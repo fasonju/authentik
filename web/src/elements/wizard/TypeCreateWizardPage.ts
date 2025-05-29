@@ -1,7 +1,7 @@
-import "@goauthentik/admin/common/ak-license-notice";
+import "#admin/common/ak-license-notice";
 
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
-import { WizardPage } from "@goauthentik/elements/wizard/WizardPage";
+import { WithLicenseSummary } from "#elements/mixins/license";
+import { WizardPage } from "#elements/wizard/WizardPage";
 
 import { TypeCreate } from "@goauthentik/api";
 

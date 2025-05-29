@@ -1,9 +1,4 @@
-import type {
-    GroupedOptions,
-    SelectGrouped,
-    SelectOption,
-    SelectOptions,
-} from "@goauthentik/elements/types";
+import type { GroupedOptions, SelectGrouped, SelectOption, SelectOptions } from "#elements/types";
 
 type Pair = [string, SelectOption];
 const mapPair = (option: SelectOption): Pair => [option[0], option];

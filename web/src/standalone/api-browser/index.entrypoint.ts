@@ -1,13 +1,13 @@
 import "rapidoc";
-import "@goauthentik/elements/ak-locale-context/index";
+import "#elements/ak-locale-context/index";
 
-import { CSRFHeaderName } from "@goauthentik/common/api/middleware";
-import { EVENT_THEME_CHANGE } from "@goauthentik/common/constants";
-import { getCookie } from "@goauthentik/common/utils";
+import { CSRFHeaderName } from "#common/api/middleware";
+import { EVENT_THEME_CHANGE } from "#common/constants";
+import { getCookie } from "#common/utils";
 
-import { Interface } from "@goauthentik/elements/Interface";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
-import { themeImage } from "@goauthentik/elements/utils/images";
+import { Interface } from "#elements/Interface";
+import { WithBrandConfig } from "#elements/mixins/branding";
+import { themeImage } from "#elements/utils/images";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

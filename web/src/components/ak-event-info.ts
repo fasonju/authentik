@@ -1,17 +1,12 @@
-import "@goauthentik/elements/Expand";
-import "@goauthentik/elements/Spinner";
+import "#elements/Expand";
+import "#elements/Spinner";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
-import {
-    EventContext,
-    EventContextProperty,
-    EventModel,
-    EventWithContext,
-} from "@goauthentik/common/events";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
+import { EventContext, EventContextProperty, EventModel, EventWithContext } from "#common/events";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { SlottedTemplateResult } from "@goauthentik/elements/types";
+import { AKElement } from "#elements/Base";
+import { SlottedTemplateResult } from "#elements/types";
 
 import { EventActions, FlowsApi } from "@goauthentik/api";
 

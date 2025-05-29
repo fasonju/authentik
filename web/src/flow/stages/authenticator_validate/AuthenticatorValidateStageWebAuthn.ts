@@ -1,10 +1,10 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
 import {
     checkWebAuthnSupport,
     transformAssertionForServer,
     transformCredentialRequestOptions,
-} from "@goauthentik/common/helpers/webauthn";
+} from "#common/helpers/webauthn";
 
 import {
     AuthenticatorValidationChallenge,

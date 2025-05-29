@@ -1,14 +1,14 @@
-import "@goauthentik/components/ak-event-info";
-import "@goauthentik/components/ak-page-header";
+import "#components/ak-event-info";
+import "#components/ak-page-header";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EventWithContext } from "@goauthentik/common/events";
-import { actionToLabel } from "@goauthentik/common/labels";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EventWithContext } from "#common/events";
+import { actionToLabel } from "#common/labels";
+import { formatElapsedTime } from "#common/temporal";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { EventGeo, EventUser } from "@goauthentik/admin/events/utils";
+import { EventGeo, EventUser } from "#admin/events/utils";
 
 import { EventToJSON, EventsApi } from "@goauthentik/api";
 

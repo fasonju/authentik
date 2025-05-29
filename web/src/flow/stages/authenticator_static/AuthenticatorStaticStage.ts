@@ -1,6 +1,6 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
-import "@goauthentik/flow/FormStatic";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
+import "#flow/FormStatic";
 
 import {
     AuthenticatorStaticChallenge,

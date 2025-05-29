@@ -1,6 +1,6 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKChart } from "@goauthentik/elements/charts/Chart";
+import { AKChart } from "#elements/charts/Chart";
 
 import { Coordinate, EventActions, EventsApi } from "@goauthentik/api";
 

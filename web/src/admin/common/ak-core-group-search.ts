@@ -1,8 +1,8 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { SearchSelect } from "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import { CustomListenerElement } from "@goauthentik/elements/utils/eventEmitter";
+import { AKElement } from "#elements/Base";
+import { SearchSelect } from "#elements/forms/SearchSelect/ak-search-select";
+import { CustomListenerElement } from "#elements/utils/eventEmitter";
 
 import { CoreApi, CoreGroupsListRequest, Group } from "@goauthentik/api";
 

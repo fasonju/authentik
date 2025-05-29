@@ -1,14 +1,14 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/user/sources/SourceSettingsOAuth";
-import "@goauthentik/elements/user/sources/SourceSettingsPlex";
-import "@goauthentik/elements/user/sources/SourceSettingsSAML";
+import "#elements/EmptyState";
+import "#elements/user/sources/SourceSettingsOAuth";
+import "#elements/user/sources/SourceSettingsPlex";
+import "#elements/user/sources/SourceSettingsSAML";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { renderSourceIcon } from "@goauthentik/admin/sources/utils";
+import { renderSourceIcon } from "#admin/sources/utils";
 
 import { PaginatedUserSourceConnectionList, SourcesApi, UserSetting } from "@goauthentik/api";
 

@@ -1,15 +1,15 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { DataProvision } from "@goauthentik/elements/ak-dual-select/types";
+import { DataProvision } from "#elements/ak-dual-select/types";
 
-import { RenderFlowOption } from "@goauthentik/admin/flows/utils";
-import { BaseStageForm } from "@goauthentik/admin/stages/BaseStageForm";
-import { deviceTypeRestrictionPair } from "@goauthentik/admin/stages/authenticator_webauthn/utils";
+import { RenderFlowOption } from "#admin/flows/utils";
+import { BaseStageForm } from "#admin/stages/BaseStageForm";
+import { deviceTypeRestrictionPair } from "#admin/stages/authenticator_webauthn/utils";
 
 import {
     AuthenticatorAttachmentEnum,

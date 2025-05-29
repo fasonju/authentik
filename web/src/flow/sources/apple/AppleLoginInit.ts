@@ -1,4 +1,4 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
 import { AppleChallengeResponseRequest, AppleLoginChallenge } from "@goauthentik/api";
 

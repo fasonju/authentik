@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
+import "#elements/forms/SearchSelect/ak-search-select";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { Provider, ProvidersAllListRequest, ProvidersApi } from "@goauthentik/api";
 

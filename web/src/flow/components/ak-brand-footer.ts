@@ -1,6 +1,6 @@
-import { BrandedHTMLPolicy, sanitizeHTML } from "@goauthentik/common/purify";
+import { BrandedHTMLPolicy, sanitizeHTML } from "#common/purify";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { FooterLink } from "@goauthentik/api";
 

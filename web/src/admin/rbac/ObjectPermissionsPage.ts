@@ -1,12 +1,12 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/admin/rbac/RoleObjectPermissionTable";
-import "@goauthentik/admin/rbac/UserObjectPermissionTable";
-import "@goauthentik/admin/roles/RoleAssignedGlobalPermissionsTable";
-import "@goauthentik/admin/roles/RoleAssignedObjectPermissionTable";
-import "@goauthentik/admin/users/UserAssignedGlobalPermissionsTable";
-import "@goauthentik/admin/users/UserAssignedObjectPermissionsTable";
+import "#elements/Tabs";
+import "#admin/rbac/RoleObjectPermissionTable";
+import "#admin/rbac/UserObjectPermissionTable";
+import "#admin/roles/RoleAssignedGlobalPermissionsTable";
+import "#admin/roles/RoleAssignedObjectPermissionTable";
+import "#admin/users/UserAssignedGlobalPermissionsTable";
+import "#admin/users/UserAssignedObjectPermissionsTable";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { RbacPermissionsAssignedByUsersListModelEnum } from "@goauthentik/api";
 

@@ -1,9 +1,9 @@
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { Form } from "@goauthentik/elements/forms/Form";
+import { Form } from "#elements/forms/Form";
 
 import { CoreApi, UserPasswordSetRequest } from "@goauthentik/api";
 

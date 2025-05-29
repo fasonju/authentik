@@ -1,8 +1,8 @@
 import "./ak-locale-context.js";
 
-import { EVENT_LOCALE_REQUEST } from "@goauthentik/common/constants";
+import { EVENT_LOCALE_REQUEST } from "#common/constants";
 
-import { customEvent } from "@goauthentik/elements/utils/customEvents";
+import { customEvent } from "#elements/utils/customEvents";
 
 import { localized, msg } from "@lit/localize";
 import { LitElement, html } from "lit";

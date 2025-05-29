@@ -1,14 +1,14 @@
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/elements/wizard/FormWizardPage";
-import "@goauthentik/elements/wizard/TypeCreateWizardPage";
-import "@goauthentik/elements/wizard/Wizard";
-import "@goauthentik/admin/outposts/ServiceConnectionDockerForm";
-import "@goauthentik/admin/outposts/ServiceConnectionKubernetesForm";
+import "#elements/forms/ProxyForm";
+import "#elements/wizard/FormWizardPage";
+import "#elements/wizard/TypeCreateWizardPage";
+import "#elements/wizard/Wizard";
+import "#admin/outposts/ServiceConnectionDockerForm";
+import "#admin/outposts/ServiceConnectionKubernetesForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import type { Wizard } from "@goauthentik/elements/wizard/Wizard";
+import { AKElement } from "#elements/Base";
+import type { Wizard } from "#elements/wizard/Wizard";
 
 import { OutpostsApi, TypeCreate } from "@goauthentik/api";
 

@@ -1,18 +1,18 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/ak-event-info";
+import "#elements/Tabs";
+import "#elements/buttons/Dropdown";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/ak-event-info";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EventWithContext } from "@goauthentik/common/events";
-import { actionToLabel } from "@goauthentik/common/labels";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EventWithContext } from "#common/events";
+import { actionToLabel } from "#common/labels";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
-import { SlottedTemplateResult } from "@goauthentik/elements/types";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
+import { SlottedTemplateResult } from "#elements/types";
 
-import { EventUser } from "@goauthentik/admin/events/utils";
+import { EventUser } from "#admin/events/utils";
 
 import { Event, EventsApi } from "@goauthentik/api";
 

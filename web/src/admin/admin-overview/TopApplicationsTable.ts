@@ -1,8 +1,8 @@
-import "@goauthentik/elements/Spinner";
+import "#elements/Spinner";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { EventTopPerUser, EventsApi } from "@goauthentik/api";
 

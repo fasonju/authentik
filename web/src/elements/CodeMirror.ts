@@ -1,6 +1,6 @@
-import { EVENT_THEME_CHANGE } from "@goauthentik/common/constants";
+import { EVENT_THEME_CHANGE } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

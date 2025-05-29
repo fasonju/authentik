@@ -1,5 +1,5 @@
-import { AKElement } from "@goauthentik/elements/Base";
-import { KeyUnknown } from "@goauthentik/elements/forms/Form";
+import { AKElement } from "#elements/Base";
+import { KeyUnknown } from "#elements/forms/Form";
 
 import { ContextualFlowInfo, CurrentBrand, ErrorDetail } from "@goauthentik/api";
 

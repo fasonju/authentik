@@ -1,13 +1,13 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-flow-search/ak-flow-search";
+import "#elements/CodeMirror";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-flow-search/ak-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { dateTimeLocal } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { dateTimeLocal } from "#common/temporal";
 
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
+import { CodeMirrorMode } from "#elements/CodeMirror";
+import { ModelForm } from "#elements/forms/ModelForm";
 
 import { FlowsInstancesListDesignationEnum, Invitation, StagesApi } from "@goauthentik/api";
 

@@ -1,18 +1,18 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/buttons/ModalButton";
-import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/user/user-settings/mfa/MFADeviceForm";
+import "#elements/buttons/Dropdown";
+import "#elements/buttons/ModalButton";
+import "#elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#user/user-settings/mfa/MFADeviceForm";
 
-import { AndNext, DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { globalAK } from "@goauthentik/common/global";
-import { deviceTypeName } from "@goauthentik/common/labels";
-import { SentryIgnoredError } from "@goauthentik/common/sentry/index";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { AndNext, DEFAULT_CONFIG } from "#common/api/config";
+import { globalAK } from "#common/global";
+import { deviceTypeName } from "#common/labels";
+import { SentryIgnoredError } from "#common/sentry/index";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { AuthenticatorsApi, Device, UserSetting } from "@goauthentik/api";
 

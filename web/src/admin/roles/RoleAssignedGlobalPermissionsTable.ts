@@ -1,10 +1,10 @@
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/admin/roles/RolePermissionForm";
+import "#elements/forms/ModalForm";
+import "#admin/roles/RolePermissionForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { groupBy } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { groupBy } from "#common/utils";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
 import { Permission, RbacApi } from "@goauthentik/api";
 

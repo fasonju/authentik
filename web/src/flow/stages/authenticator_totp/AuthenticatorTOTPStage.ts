@@ -1,10 +1,10 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormElement";
-import "@goauthentik/flow/FormStatic";
+import "#elements/EmptyState";
+import "#elements/forms/FormElement";
+import "#flow/FormStatic";
 
-import { MessageLevel } from "@goauthentik/common/messages";
+import { MessageLevel } from "#common/messages";
 
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { showMessage } from "#elements/messages/MessageContainer";
 
 import { BaseStage } from "../../stages/base.js";
 

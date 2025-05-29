@@ -1,8 +1,8 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { DualSelectPair } from "@goauthentik/elements/ak-dual-select/types";
+import { DualSelectPair } from "#elements/ak-dual-select/types";
 
-import { deviceTypeRestrictionPair } from "@goauthentik/admin/stages/authenticator_webauthn/utils";
+import { deviceTypeRestrictionPair } from "#admin/stages/authenticator_webauthn/utils";
 
 import { Stage, StagesApi } from "@goauthentik/api";
 

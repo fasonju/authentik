@@ -1,9 +1,9 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import { isCausedByAbortError } from "@goauthentik/common/errors/network";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { isCausedByAbortError } from "#common/errors/network";
 
-import { VersionContext, VersionMixin } from "@goauthentik/elements/mixins/version";
-import type { ReactiveElementHost } from "@goauthentik/elements/types";
+import { VersionContext, VersionMixin } from "#elements/mixins/version";
+import type { ReactiveElementHost } from "#elements/types";
 
 import { AdminApi, Version } from "@goauthentik/api";
 

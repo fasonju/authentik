@@ -1,17 +1,17 @@
-import "@goauthentik/elements/ak-array-input";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/elements/utils/TimeDeltaHelp";
-import "@goauthentik/components/ak-number-input";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
+import "#elements/ak-array-input";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#elements/utils/TimeDeltaHelp";
+import "#components/ak-number-input";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
 import "./AdminSettingsFooterLinks.js";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { Form } from "@goauthentik/elements/forms/Form";
+import { Form } from "#elements/forms/Form";
 
 import { AdminApi, FooterLink, Settings, SettingsRequest } from "@goauthentik/api";
 

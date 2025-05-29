@@ -1,18 +1,18 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/buttons/Dropdown";
-import "@goauthentik/elements/buttons/TokenCopyButton/ak-token-copy-button";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/admin/rbac/ObjectPermissionModal";
-import "@goauthentik/admin/tokens/TokenForm";
+import "#elements/buttons/Dropdown";
+import "#elements/buttons/TokenCopyButton/ak-token-copy-button";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#components/ak-status-label";
+import "#admin/rbac/ObjectPermissionModal";
+import "#admin/tokens/TokenForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { intentToLabel } from "@goauthentik/common/labels";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { intentToLabel } from "#common/labels";
+import { formatElapsedTime } from "#common/temporal";
 
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TablePage } from "@goauthentik/elements/table/TablePage";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TablePage } from "#elements/table/TablePage";
 
 import {
     CoreApi,

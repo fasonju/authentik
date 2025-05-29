@@ -1,9 +1,9 @@
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { PaginatedResponse, TableColumn } from "@goauthentik/elements/table/Table";
-import { TableModal } from "@goauthentik/elements/table/TableModal";
+import { PaginatedResponse, TableColumn } from "#elements/table/Table";
+import { TableModal } from "#elements/table/TableModal";
 
 import { Provider, ProvidersApi } from "@goauthentik/api";
 

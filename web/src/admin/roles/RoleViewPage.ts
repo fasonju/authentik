@@ -1,18 +1,18 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/components/events/UserEvents";
-import "@goauthentik/admin/groups/RelatedGroupList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
-import "@goauthentik/admin/roles/RoleForm";
+import "#elements/Tabs";
+import "#elements/forms/ModalForm";
+import "#components/ak-page-header";
+import "#components/events/ObjectChangelog";
+import "#components/events/UserEvents";
+import "#admin/groups/RelatedGroupList";
+import "#admin/rbac/ObjectPermissionsPage";
+import "#admin/roles/RoleForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { renderDescriptionList } from "@goauthentik/components/DescriptionList";
+import { renderDescriptionList } from "#components/DescriptionList";
 
 import { RbacApi, RbacPermissionsAssignedByUsersListModelEnum, Role } from "@goauthentik/api";
 

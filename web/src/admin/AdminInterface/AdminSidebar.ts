@@ -1,4 +1,4 @@
-import { ID_REGEX, SLUG_REGEX, UUID_REGEX } from "@goauthentik/elements/router/Route";
+import { ID_REGEX, SLUG_REGEX, UUID_REGEX } from "#elements/router/Route";
 
 import { spread } from "@open-wc/lit-helpers";
 

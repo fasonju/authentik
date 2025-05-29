@@ -1,19 +1,19 @@
-import "@goauthentik/elements/CodeMirror";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
-import "@goauthentik/admin/sources/saml/SAMLSourceForm";
+import "#elements/CodeMirror";
+import "#elements/Tabs";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#elements/forms/ModalForm";
+import "#components/events/ObjectChangelog";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/rbac/ObjectPermissionsPage";
+import "#admin/sources/saml/SAMLSourceForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { CodeMirrorMode } from "@goauthentik/elements/CodeMirror";
+import { AKElement } from "#elements/Base";
+import { CodeMirrorMode } from "#elements/CodeMirror";
 
-import { sourceBindingTypeNotices } from "@goauthentik/admin/sources/utils";
+import { sourceBindingTypeNotices } from "#admin/sources/utils";
 
 import {
     RbacPermissionsAssignedByUsersListModelEnum,

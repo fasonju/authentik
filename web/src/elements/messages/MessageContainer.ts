@@ -1,17 +1,13 @@
-import "@goauthentik/elements/messages/Message";
+import "#elements/messages/Message";
 
-import {
-    EVENT_MESSAGE,
-    EVENT_WS_MESSAGE,
-    WS_MSG_TYPE_MESSAGE,
-} from "@goauthentik/common/constants";
-import { APIError, pluckErrorDetail } from "@goauthentik/common/errors/network";
-import { MessageLevel } from "@goauthentik/common/messages";
-import { SentryIgnoredError } from "@goauthentik/common/sentry/index";
-import { WSMessage } from "@goauthentik/common/ws";
+import { EVENT_MESSAGE, EVENT_WS_MESSAGE, WS_MSG_TYPE_MESSAGE } from "#common/constants";
+import { APIError, pluckErrorDetail } from "#common/errors/network";
+import { MessageLevel } from "#common/messages";
+import { SentryIgnoredError } from "#common/sentry/index";
+import { WSMessage } from "#common/ws";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { APIMessage } from "@goauthentik/elements/messages/Message";
+import { AKElement } from "#elements/Base";
+import { APIMessage } from "#elements/messages/Message";
 
 import { instanceOfValidationError } from "@goauthentik/api";
 

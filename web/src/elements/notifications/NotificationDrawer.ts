@@ -1,17 +1,17 @@
 import "@patternfly/elements/pf-tooltip/pf-tooltip.js";
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_NOTIFICATION_DRAWER_TOGGLE, EVENT_REFRESH } from "@goauthentik/common/constants";
-import { globalAK } from "@goauthentik/common/global";
-import { actionToLabel } from "@goauthentik/common/labels";
-import { MessageLevel } from "@goauthentik/common/messages";
-import { formatElapsedTime } from "@goauthentik/common/temporal";
-import { me } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_NOTIFICATION_DRAWER_TOGGLE, EVENT_REFRESH } from "#common/constants";
+import { globalAK } from "#common/global";
+import { actionToLabel } from "#common/labels";
+import { MessageLevel } from "#common/messages";
+import { formatElapsedTime } from "#common/temporal";
+import { me } from "#common/users";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
+import { AKElement } from "#elements/Base";
+import { showMessage } from "#elements/messages/MessageContainer";
+import { PaginatedResponse } from "#elements/table/Table";
 
 import { EventsApi, Notification } from "@goauthentik/api";
 

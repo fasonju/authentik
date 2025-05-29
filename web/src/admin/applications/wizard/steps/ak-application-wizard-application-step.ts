@@ -1,20 +1,20 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/components/ak-radio-input";
-import "@goauthentik/components/ak-slug-input";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#components/ak-radio-input";
+import "#components/ak-slug-input";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { camelToSnake } from "@goauthentik/common/utils";
+import { camelToSnake } from "#common/utils";
 
-import { type KeyUnknown } from "@goauthentik/elements/forms/Form";
-import { isSlug } from "@goauthentik/elements/router/utils";
+import { type KeyUnknown } from "#elements/forms/Form";
+import { isSlug } from "#elements/router/utils";
 
-import { type NavigableButton, type WizardButton } from "@goauthentik/components/ak-wizard/types";
+import { type NavigableButton, type WizardButton } from "#components/ak-wizard/types";
 
-import { policyOptions } from "@goauthentik/admin/applications/PolicyOptions";
-import { ApplicationWizardStep } from "@goauthentik/admin/applications/wizard/ApplicationWizardStep";
+import { policyOptions } from "#admin/applications/PolicyOptions";
+import { ApplicationWizardStep } from "#admin/applications/wizard/ApplicationWizardStep";
 
 import { type ApplicationRequest } from "@goauthentik/api";
 

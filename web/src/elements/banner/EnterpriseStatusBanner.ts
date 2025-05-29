@@ -1,7 +1,7 @@
-import { globalAK } from "@goauthentik/common/global";
+import { globalAK } from "#common/global";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
+import { AKElement } from "#elements/Base";
+import { WithLicenseSummary } from "#elements/mixins/license";
 
 import { LicenseFlagsEnum, LicenseSummaryStatusEnum } from "@goauthentik/api";
 

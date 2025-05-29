@@ -1,6 +1,6 @@
-import "@goauthentik/elements/sidebar/SidebarVersion";
+import "#elements/sidebar/SidebarVersion";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

@@ -2,11 +2,11 @@ import "../ak-radio-input.js";
 import "./ak-hint.js";
 import "./ak-hint-body.js";
 import "./ak-hint-title.js";
-import "@goauthentik/elements/buttons/ActionButton/ak-action-button";
+import "#elements/buttons/ActionButton/ak-action-button";
 
-import { MessageLevel } from "@goauthentik/common/messages";
+import { MessageLevel } from "#common/messages";
 
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
+import { showMessage } from "#elements/messages/MessageContainer";
 
 import { Meta } from "@storybook/web-components";
 

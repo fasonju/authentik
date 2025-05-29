@@ -1,9 +1,6 @@
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import {
-    AdminStatus,
-    AdminStatusCard,
-} from "@goauthentik/admin/admin-overview/cards/AdminStatusCard";
+import { AdminStatus, AdminStatusCard } from "#admin/admin-overview/cards/AdminStatusCard";
 
 import { AdminApi, OutpostsApi, SystemInfo } from "@goauthentik/api";
 

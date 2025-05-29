@@ -1,20 +1,20 @@
-import "@goauthentik/elements/AppIcon";
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/buttons/SpinnerButton/ak-spinner-button";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/components/events/ObjectChangelog";
-import "@goauthentik/admin/applications/ApplicationAuthorizeChart";
-import "@goauthentik/admin/applications/ApplicationCheckAccessForm";
-import "@goauthentik/admin/applications/ApplicationForm";
-import "@goauthentik/admin/applications/entitlements/ApplicationEntitlementPage";
-import "@goauthentik/admin/policies/BoundPoliciesList";
-import "@goauthentik/admin/rbac/ObjectPermissionsPage";
+import "#elements/AppIcon";
+import "#elements/EmptyState";
+import "#elements/Tabs";
+import "#elements/buttons/SpinnerButton/ak-spinner-button";
+import "#components/ak-page-header";
+import "#components/events/ObjectChangelog";
+import "#admin/applications/ApplicationAuthorizeChart";
+import "#admin/applications/ApplicationCheckAccessForm";
+import "#admin/applications/ApplicationForm";
+import "#admin/applications/entitlements/ApplicationEntitlementPage";
+import "#admin/policies/BoundPoliciesList";
+import "#admin/rbac/ObjectPermissionsPage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import {
     Application,

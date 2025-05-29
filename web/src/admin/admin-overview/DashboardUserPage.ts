@@ -1,8 +1,8 @@
-import "@goauthentik/elements/cards/AggregatePromiseCard";
-import "@goauthentik/components/ak-page-header";
-import "@goauthentik/admin/admin-overview/charts/AdminModelPerDay";
+import "#elements/cards/AggregatePromiseCard";
+import "#components/ak-page-header";
+import "#admin/admin-overview/charts/AdminModelPerDay";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { EventActions } from "@goauthentik/api";
 

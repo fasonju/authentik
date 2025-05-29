@@ -1,9 +1,9 @@
-import "@goauthentik/elements/Spinner";
+import "#elements/Spinner";
 
-import { PFSize } from "@goauthentik/common/enums";
+import { PFSize } from "#common/enums";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { type SlottedTemplateResult, type Spread } from "@goauthentik/elements/types";
+import { AKElement } from "#elements/Base";
+import { type SlottedTemplateResult, type Spread } from "#elements/types";
 
 import { spread } from "@open-wc/lit-helpers";
 

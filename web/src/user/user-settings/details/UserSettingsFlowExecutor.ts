@@ -1,19 +1,15 @@
-import "@goauthentik/user/user-settings/details/stages/prompt/PromptStage";
+import "#user/user-settings/details/stages/prompt/PromptStage";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
-import {
-    APIError,
-    parseAPIResponseError,
-    pluckErrorDetail,
-} from "@goauthentik/common/errors/network";
-import { globalAK } from "@goauthentik/common/global";
-import { MessageLevel } from "@goauthentik/common/messages";
-import { refreshMe } from "@goauthentik/common/users";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { EVENT_REFRESH } from "#common/constants";
+import { APIError, parseAPIResponseError, pluckErrorDetail } from "#common/errors/network";
+import { globalAK } from "#common/global";
+import { MessageLevel } from "#common/messages";
+import { refreshMe } from "#common/users";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { showMessage } from "@goauthentik/elements/messages/MessageContainer";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { AKElement } from "#elements/Base";
+import { showMessage } from "#elements/messages/MessageContainer";
+import { WithBrandConfig } from "#elements/mixins/branding";
 
 import {
     ChallengeTypes,

@@ -1,19 +1,19 @@
-import "@goauthentik/elements/ak-table/ak-select-table";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/components/ak-radio-input";
-import "@goauthentik/components/ak-slug-input";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/components/ak-switch-input";
-import "@goauthentik/components/ak-text-input";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#elements/ak-table/ak-select-table";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#components/ak-radio-input";
+import "#components/ak-slug-input";
+import "#components/ak-status-label";
+import "#components/ak-switch-input";
+import "#components/ak-text-input";
+import "#admin/applications/wizard/ak-wizard-title";
 import "./bindings/ak-application-wizard-bindings-toolbar.js";
 
-import { SelectTable } from "@goauthentik/elements/ak-table/ak-select-table";
+import { SelectTable } from "#elements/ak-table/ak-select-table";
 
-import { type WizardButton } from "@goauthentik/components/ak-wizard/types";
+import { type WizardButton } from "#components/ak-wizard/types";
 
-import { ApplicationWizardStep } from "@goauthentik/admin/applications/wizard/ApplicationWizardStep";
+import { ApplicationWizardStep } from "#admin/applications/wizard/ApplicationWizardStep";
 
 import { P, match } from "ts-pattern";
 

@@ -1,4 +1,4 @@
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { ErrorDetail } from "@goauthentik/api";
 

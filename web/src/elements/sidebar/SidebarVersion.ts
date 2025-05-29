@@ -1,12 +1,12 @@
-import { globalAK } from "@goauthentik/common/global";
-import { rootInterface } from "@goauthentik/common/theme";
-import { DefaultBrand } from "@goauthentik/common/ui/config";
+import { globalAK } from "#common/global";
+import { rootInterface } from "#common/theme";
+import { DefaultBrand } from "#common/ui/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
-import { WithVersion } from "@goauthentik/elements/mixins/version";
+import { AKElement } from "#elements/Base";
+import { WithLicenseSummary } from "#elements/mixins/license";
+import { WithVersion } from "#elements/mixins/version";
 
-import type { AdminInterface } from "@goauthentik/admin/AdminInterface/index.entrypoint";
+import type { AdminInterface } from "#admin/AdminInterface/index.entrypoint";
 
 import { LicenseSummaryStatusEnum } from "@goauthentik/api";
 

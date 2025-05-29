@@ -1,23 +1,20 @@
-import "@goauthentik/elements/Tabs";
-import "@goauthentik/elements/forms/DeleteBulkForm";
-import "@goauthentik/elements/forms/ModalForm";
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/components/ak-status-label";
-import "@goauthentik/admin/groups/GroupForm";
-import "@goauthentik/admin/policies/PolicyBindingForm";
-import "@goauthentik/admin/policies/PolicyWizard";
-import "@goauthentik/admin/users/UserForm";
+import "#elements/Tabs";
+import "#elements/forms/DeleteBulkForm";
+import "#elements/forms/ModalForm";
+import "#elements/forms/ProxyForm";
+import "#components/ak-status-label";
+import "#admin/groups/GroupForm";
+import "#admin/policies/PolicyBindingForm";
+import "#admin/policies/PolicyWizard";
+import "#admin/users/UserForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PFSize } from "@goauthentik/common/enums";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PFSize } from "#common/enums";
 
-import { PaginatedResponse, Table, TableColumn } from "@goauthentik/elements/table/Table";
+import { PaginatedResponse, Table, TableColumn } from "#elements/table/Table";
 
-import { PolicyBindingNotice } from "@goauthentik/admin/policies/PolicyBindingForm";
-import {
-    PolicyBindingCheckTarget,
-    PolicyBindingCheckTargetToLabel,
-} from "@goauthentik/admin/policies/utils";
+import { PolicyBindingNotice } from "#admin/policies/PolicyBindingForm";
+import { PolicyBindingCheckTarget, PolicyBindingCheckTargetToLabel } from "#admin/policies/utils";
 
 import {
     PoliciesApi,

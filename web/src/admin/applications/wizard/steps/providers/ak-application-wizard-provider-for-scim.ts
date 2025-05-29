@@ -1,7 +1,7 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#elements/forms/FormGroup";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { renderForm } from "@goauthentik/admin/providers/scim/SCIMProviderFormForm";
+import { renderForm } from "#admin/providers/scim/SCIMProviderFormForm";
 
 import { PaginatedSCIMMappingList, type SCIMProvider } from "@goauthentik/api";
 

@@ -1,4 +1,4 @@
-import "@goauthentik/elements/messages/MessageContainer";
+import "#elements/messages/MessageContainer";
 import "./ak-checkbox-group.js";
 
 import { Meta } from "@storybook/web-components";

@@ -1,9 +1,9 @@
-import "@goauthentik/elements/EmptyState";
+import "#elements/EmptyState";
 
-import { EVENT_REFRESH, EVENT_THEME_CHANGE } from "@goauthentik/common/constants";
-import { DOM_PURIFY_STRICT } from "@goauthentik/common/purify";
+import { EVENT_REFRESH, EVENT_THEME_CHANGE } from "#common/constants";
+import { DOM_PURIFY_STRICT } from "#common/purify";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

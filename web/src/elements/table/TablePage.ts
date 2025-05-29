@@ -1,7 +1,7 @@
-import "@goauthentik/components/ak-page-header";
+import "#components/ak-page-header";
 
-import { updateURLParams } from "@goauthentik/elements/router/RouteMatch";
-import { Table } from "@goauthentik/elements/table/Table";
+import { updateURLParams } from "#elements/router/RouteMatch";
+import { Table } from "#elements/table/Table";
 
 import { msg } from "@lit/localize";
 import { CSSResult, TemplateResult, html } from "lit";

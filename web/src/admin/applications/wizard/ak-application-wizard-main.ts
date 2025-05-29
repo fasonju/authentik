@@ -1,4 +1,4 @@
-import "@goauthentik/components/ak-wizard/ak-wizard-steps";
+import "#components/ak-wizard/ak-wizard-steps";
 import "./steps/ak-application-wizard-application-step.js";
 import "./steps/ak-application-wizard-bindings-step.js";
 import "./steps/ak-application-wizard-edit-binding-step.js";
@@ -6,11 +6,11 @@ import "./steps/ak-application-wizard-provider-choice-step.js";
 import "./steps/ak-application-wizard-provider-step.js";
 import "./steps/ak-application-wizard-submit-step.js";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
-import { WizardUpdateEvent } from "@goauthentik/components/ak-wizard/events";
+import { WizardUpdateEvent } from "#components/ak-wizard/events";
 
 import { ProvidersApi, ProxyMode } from "@goauthentik/api";
 

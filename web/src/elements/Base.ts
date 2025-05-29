@@ -1,9 +1,5 @@
-import { globalAK } from "@goauthentik/common/global";
-import {
-    StyleRoot,
-    createCSSResult,
-    createStyleSheetUnsafe,
-} from "@goauthentik/common/stylesheets";
+import { globalAK } from "#common/global";
+import { StyleRoot, createCSSResult, createStyleSheetUnsafe } from "#common/stylesheets";
 import {
     $AKBase,
     CSSColorSchemeValue,
@@ -12,7 +8,7 @@ import {
     createUIThemeEffect,
     formatColorScheme,
     resolveUITheme,
-} from "@goauthentik/common/theme";
+} from "#common/theme";
 
 import { UiThemeEnum } from "@goauthentik/api";
 

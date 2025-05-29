@@ -1,16 +1,16 @@
-import "@goauthentik/elements/EmptyState";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/wizard/TypeCreateWizardPage";
-import "@goauthentik/admin/applications/wizard/ak-wizard-title";
+import "#elements/EmptyState";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/wizard/TypeCreateWizardPage";
+import "#admin/applications/wizard/ak-wizard-title";
 
-import { bound } from "@goauthentik/elements/decorators/bound";
-import { WithLicenseSummary } from "@goauthentik/elements/mixins/license";
-import { TypeCreateWizardPageLayouts } from "@goauthentik/elements/wizard/TypeCreateWizardPage";
+import { bound } from "#elements/decorators/bound";
+import { WithLicenseSummary } from "#elements/mixins/license";
+import { TypeCreateWizardPageLayouts } from "#elements/wizard/TypeCreateWizardPage";
 
-import type { NavigableButton, WizardButton } from "@goauthentik/components/ak-wizard/types";
+import type { NavigableButton, WizardButton } from "#components/ak-wizard/types";
 
-import { ApplicationWizardStep } from "@goauthentik/admin/applications/wizard/ApplicationWizardStep";
+import { ApplicationWizardStep } from "#admin/applications/wizard/ApplicationWizardStep";
 
 import { TypeCreate } from "@goauthentik/api";
 

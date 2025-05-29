@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { BasePolicyForm } from "@goauthentik/admin/policies/BasePolicyForm";
+import { BasePolicyForm } from "#admin/policies/BasePolicyForm";
 
 import { PasswordPolicy, PoliciesApi } from "@goauthentik/api";
 

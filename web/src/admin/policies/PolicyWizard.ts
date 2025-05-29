@@ -1,23 +1,23 @@
-import "@goauthentik/elements/forms/ProxyForm";
-import "@goauthentik/elements/wizard/FormWizardPage";
-import "@goauthentik/elements/wizard/TypeCreateWizardPage";
-import "@goauthentik/elements/wizard/Wizard";
-import "@goauthentik/admin/policies/dummy/DummyPolicyForm";
-import "@goauthentik/admin/policies/event_matcher/EventMatcherPolicyForm";
-import "@goauthentik/admin/policies/expiry/ExpiryPolicyForm";
-import "@goauthentik/admin/policies/expression/ExpressionPolicyForm";
-import "@goauthentik/admin/policies/geoip/GeoIPPolicyForm";
-import "@goauthentik/admin/policies/password/PasswordPolicyForm";
-import "@goauthentik/admin/policies/reputation/ReputationPolicyForm";
-import "@goauthentik/admin/policies/unique_password/UniquePasswordPolicyForm";
+import "#elements/forms/ProxyForm";
+import "#elements/wizard/FormWizardPage";
+import "#elements/wizard/TypeCreateWizardPage";
+import "#elements/wizard/Wizard";
+import "#admin/policies/dummy/DummyPolicyForm";
+import "#admin/policies/event_matcher/EventMatcherPolicyForm";
+import "#admin/policies/expiry/ExpiryPolicyForm";
+import "#admin/policies/expression/ExpressionPolicyForm";
+import "#admin/policies/geoip/GeoIPPolicyForm";
+import "#admin/policies/password/PasswordPolicyForm";
+import "#admin/policies/reputation/ReputationPolicyForm";
+import "#admin/policies/unique_password/UniquePasswordPolicyForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { FormWizardPage } from "@goauthentik/elements/wizard/FormWizardPage";
-import type { Wizard } from "@goauthentik/elements/wizard/Wizard";
+import { AKElement } from "#elements/Base";
+import { FormWizardPage } from "#elements/wizard/FormWizardPage";
+import type { Wizard } from "#elements/wizard/Wizard";
 
-import { PolicyBindingForm } from "@goauthentik/admin/policies/PolicyBindingForm";
+import { PolicyBindingForm } from "#admin/policies/PolicyBindingForm";
 
 import { PoliciesApi, Policy, PolicyBinding, TypeCreate } from "@goauthentik/api";
 

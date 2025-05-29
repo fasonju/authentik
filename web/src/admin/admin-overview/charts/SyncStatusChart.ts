@@ -1,9 +1,9 @@
-import "@goauthentik/elements/forms/ConfirmationForm";
+import "#elements/forms/ConfirmationForm";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { AKChart } from "@goauthentik/elements/charts/Chart";
-import { PaginatedResponse } from "@goauthentik/elements/table/Table";
+import { AKChart } from "#elements/charts/Chart";
+import { PaginatedResponse } from "#elements/table/Table";
 
 import { ProvidersApi, SourcesApi, SyncStatus, SystemTaskStatusEnum } from "@goauthentik/api";
 

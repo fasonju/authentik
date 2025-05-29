@@ -1,6 +1,6 @@
-import "@goauthentik/elements/forms/HorizontalFormElement";
+import "#elements/forms/HorizontalFormElement";
 
-import { globalAK } from "@goauthentik/common/global";
+import { globalAK } from "#common/global";
 
 import { PromptTypeEnum, StagePrompt } from "@goauthentik/api";
 

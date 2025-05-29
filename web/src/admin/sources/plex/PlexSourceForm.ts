@@ -1,26 +1,20 @@
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
-import "@goauthentik/elements/ak-dual-select/ak-dual-select-provider";
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/SearchSelect/ak-search-select";
-import "@goauthentik/admin/common/ak-flow-search/ak-source-flow-search";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-dynamic-selected-provider";
+import "#elements/ak-dual-select/ak-dual-select-provider";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/SearchSelect/ak-search-select";
+import "#admin/common/ak-flow-search/ak-source-flow-search";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { PlexAPIClient, PlexResource, popupCenterScreen } from "@goauthentik/common/helpers/plex";
-import { ascii_letters, digits, randomString } from "@goauthentik/common/utils";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { PlexAPIClient, PlexResource, popupCenterScreen } from "#common/helpers/plex";
+import { ascii_letters, digits, randomString } from "#common/utils";
 
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
 
-import { iconHelperText, placeholderHelperText } from "@goauthentik/admin/helperText";
-import { BaseSourceForm } from "@goauthentik/admin/sources/BaseSourceForm";
-import {
-    GroupMatchingModeToLabel,
-    UserMatchingModeToLabel,
-} from "@goauthentik/admin/sources/oauth/utils";
+import { iconHelperText, placeholderHelperText } from "#admin/helperText";
+import { BaseSourceForm } from "#admin/sources/BaseSourceForm";
+import { GroupMatchingModeToLabel, UserMatchingModeToLabel } from "#admin/sources/oauth/utils";
 
 import {
     FlowsInstancesListDesignationEnum,

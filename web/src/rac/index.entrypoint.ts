@@ -1,9 +1,9 @@
-import "@goauthentik/elements/LoadingOverlay";
+import "#elements/LoadingOverlay";
 
-import AKGlobal from "@goauthentik/common/styles/authentik.css";
+import AKGlobal from "#common/styles/authentik.css";
 
-import { Interface } from "@goauthentik/elements/Interface";
-import { WithBrandConfig } from "@goauthentik/elements/mixins/branding";
+import { Interface } from "#elements/Interface";
+import { WithBrandConfig } from "#elements/mixins/branding";
 
 import Guacamole from "guacamole-common-js";
 

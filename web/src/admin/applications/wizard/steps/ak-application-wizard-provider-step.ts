@@ -6,7 +6,7 @@ import "./providers/ak-application-wizard-provider-for-radius.js";
 import "./providers/ak-application-wizard-provider-for-saml.js";
 import "./providers/ak-application-wizard-provider-for-scim.js";
 
-import type { NavigableButton, WizardButton } from "@goauthentik/components/ak-wizard/types";
+import type { NavigableButton, WizardButton } from "#components/ak-wizard/types";
 
 import { msg } from "@lit/localize";
 import { PropertyValues, nothing } from "lit";

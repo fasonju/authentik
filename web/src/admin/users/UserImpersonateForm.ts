@@ -1,9 +1,9 @@
-import "@goauthentik/components/ak-text-input";
+import "#components/ak-text-input";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
-import { globalAK } from "@goauthentik/common/global";
+import { DEFAULT_CONFIG } from "#common/api/config";
+import { globalAK } from "#common/global";
 
-import { Form } from "@goauthentik/elements/forms/Form";
+import { Form } from "#elements/forms/Form";
 
 import { CoreApi, ImpersonationRequest } from "@goauthentik/api";
 

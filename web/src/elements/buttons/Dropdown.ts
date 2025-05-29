@@ -1,6 +1,6 @@
-import { EVENT_REFRESH } from "@goauthentik/common/constants";
+import { EVENT_REFRESH } from "#common/constants";
 
-import { AKElement } from "@goauthentik/elements/Base";
+import { AKElement } from "#elements/Base";
 
 import { TemplateResult, html } from "lit";
 import { customElement } from "lit/decorators.js";

@@ -1,6 +1,6 @@
-import { ROUTE_SEPARATOR } from "@goauthentik/common/constants";
+import { ROUTE_SEPARATOR } from "#common/constants";
 
-import { Route } from "@goauthentik/elements/router/Route";
+import { Route } from "#elements/router/Route";
 
 import { TemplateResult } from "lit";
 

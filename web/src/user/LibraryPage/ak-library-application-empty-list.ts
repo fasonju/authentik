@@ -1,7 +1,7 @@
-import { docLink, globalAK } from "@goauthentik/common/global";
+import { docLink, globalAK } from "#common/global";
 
-import { AKElement } from "@goauthentik/elements/Base";
-import { paramURL } from "@goauthentik/elements/router/RouterOutlet";
+import { AKElement } from "#elements/Base";
+import { paramURL } from "#elements/router/RouterOutlet";
 
 import { msg } from "@lit/localize";
 import { css, html } from "lit";

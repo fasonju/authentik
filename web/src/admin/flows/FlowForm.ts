@@ -1,16 +1,13 @@
-import "@goauthentik/elements/forms/FormGroup";
-import "@goauthentik/elements/forms/HorizontalFormElement";
-import "@goauthentik/elements/forms/Radio";
+import "#elements/forms/FormGroup";
+import "#elements/forms/HorizontalFormElement";
+import "#elements/forms/Radio";
 
-import { DEFAULT_CONFIG } from "@goauthentik/common/api/config";
+import { DEFAULT_CONFIG } from "#common/api/config";
 
-import { ModelForm } from "@goauthentik/elements/forms/ModelForm";
-import {
-    CapabilitiesEnum,
-    WithCapabilitiesConfig,
-} from "@goauthentik/elements/mixins/capabilities";
+import { ModelForm } from "#elements/forms/ModelForm";
+import { CapabilitiesEnum, WithCapabilitiesConfig } from "#elements/mixins/capabilities";
 
-import { DesignationToLabel, LayoutToLabel } from "@goauthentik/admin/flows/utils";
+import { DesignationToLabel, LayoutToLabel } from "#admin/flows/utils";
 
 import {
     AuthenticationEnum,
